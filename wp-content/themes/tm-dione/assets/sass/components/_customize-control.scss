@@ -1,0 +1,53 @@
+/* Customizer */
+.tm-customizer-control {
+	&:hover {
+		border: 1px dashed #000;
+		position: relative;
+		.tm-customizer-control-a {
+			display: block;
+			&:hover {
+				color: #fff!important;
+				background-color: #000!important;
+			}
+		}
+	}
+	&-a {
+		@include transition(opacity 1s $ease-in-out-cubic);
+		display: none;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+
+		background-color: #333!important;
+		color: #ccc!important;
+		border-radius: 3px!important;
+		padding: 5px 10px!important;
+		z-index: 99!important;
+
+		&.left {
+			left: 10px;
+		}
+		&.right {
+			left: auto;
+			right: 10px;
+		}
+		&.center {
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		&.top {
+			top: 10px;
+		}
+		&.middle {
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		&.bottom {
+			top: auto;
+			bottom: 10px;
+		}
+		&.center.middle {
+			transform: translate(-50%, -50%);
+		}
+	}
+}

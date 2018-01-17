@@ -1,0 +1,267 @@
+
+@mixin absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+@mixin fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@mixin resets {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+//NEW VARIATION
+$blacktransparent: rgba(0,0,0,.9); 
+
+@mixin bluedient {
+  
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#054098+0,000000+100&0.65+0,0+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(5,64,152,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(5,64,152,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(5,64,152,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6054098', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    
+}
+
+
+.getquote-product {
+    @include fixed;
+//    background: $blacktransparent;
+    background: $blacktransparent;
+  
+    z-index: 9999;
+    display: none;
+    overflow: auto;
+    
+    
+    .invisible_btn {
+       position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        @include bluedient();
+    }
+    
+    
+    
+    
+    .header_modal_warpper {
+        outline: 1px solid;
+        position: relative;
+        border-bottom: 4px solid $color-secondary;
+        
+        div,aside {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .modal_logo {
+            float: left;
+            padding: 12px 102px 12px 38px !important;
+            background:$color-primary;
+            display: block;
+            width: 60%;
+            position: relative;
+            
+            &::after {
+                position: absolute;
+                width: 0;
+                height: 0;
+                content: '';
+                right: -88px;
+                border-bottom: 92px solid $color-primary;
+                border-right: 92px solid transparent;
+                bottom: 0;
+            }
+            
+            
+        }
+        
+        &:after {
+            display: block;
+            content: '';
+            clear: both;
+        }
+        
+        
+        
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    .quote-wrapper {
+        position: relative;
+        margin-top: 3%;
+//        background: $color-lightgray;  
+//        max-width: 623px;
+        max-width: 750px;
+        padding: 0;
+        overflow: hidden;
+        
+        .col-md-12 {
+            padding: 0;
+        }
+        
+        
+        .close2 {
+            display: inline-block;
+            color: $color-white;
+//            background:$color-secondary;
+            text-align: center;
+            font-size: 15px;
+            position: absolute;
+            right: 0;
+            bottom: 5px;
+            text-decoration: none;
+        }
+        
+        
+        .header-wrapper {
+            h3 {
+                font-size: 22px;
+                text-transform: uppercase;
+                color: $color-secondary;
+            }
+        }
+        
+        .header-title {
+            text-align: center;
+            padding: 0 0;
+            
+            
+            p {
+                color: $color-white;
+                margin-bottom: 0;
+                
+            }
+            
+        }
+        
+        .body-content {
+            padding: 20px;
+            background: $color-lightgray;
+            
+            section {
+                background: transparent !important;
+                background-color: transparent !important; 
+                position: relative;
+                
+                div {
+                    width: 100%;
+                    @include resets;
+                    
+                    
+                    .wpb_text_column.wpb_content_element.form-details { 
+                        position: absolute;
+                        width: 45%;
+                        top: 10px;
+                        right: 0;
+                        display: block !important; 
+                        color: $color-white;
+                        
+                        h6 {
+                            color: $color-white;
+                            font-size: 16px;
+                            border-bottom: 1px solid $color-lightgray;  
+                            margin-bottom: 10px;
+                        }
+                        
+                        ul {
+                            @include resets;
+                            list-style: none;
+                            margin-bottom: 35px;
+                            
+                            li {
+                                margin-bottom: 15px;
+                                
+                                i {
+                                    color: $color-secondary;
+                                    margin-top: 3px;
+                                    font-size: 18px;
+                                }
+                                
+                                
+                            }
+                        }
+                        
+                        p {
+                            
+                            
+                            i.fa.fa-lock {
+                                    font-size: 88px;
+                                    margin-top: -10px;
+                            }
+                                
+                                
+                        }
+                        
+                        
+                        
+                        
+                    }
+                    
+                    
+               
+                }
+                
+            }
+            
+            
+        }
+        
+        
+        .body-content.form-contact,
+        .body-content.form-resume,
+        .body-content.form-request,
+        .body-content.form-jobalert
+        {
+         display: none;   
+        }
+        
+        
+        .body-content.visible {
+            display: block;
+        }
+
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

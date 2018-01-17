@@ -1,0 +1,98 @@
+.site-footer {
+	&.footer02 {
+		position: relative;
+		&:before {
+			display: block;
+			content: '';
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			@include media-breakpoint-up(sm) {
+				width: 50%;
+			}
+			width: 100%;
+			background: url('../../images/pattern-01.png') center center #FBFBFB;
+		}
+	}
+	li,
+	ul {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	color: $gray-color;
+	background: $black-color;
+	padding: 100px 0;
+	.widget {
+		margin-bottom: 20px;
+		&-title {
+			color: $white-color;
+		}
+		p {
+			line-height: 1.6;
+		}
+	}
+	*[class*="social-menu"] {
+		li {
+			margin-right: 5px;
+		}
+		a {
+			color: $dark-gray-color;
+			&:hover {
+				color: $primary-color;
+			}
+		}
+		.menu li a:before {
+			font-size: 18px;
+		}
+	}
+
+	li {
+		line-height: 2.6;
+	}
+	a {
+		color: $gray-color;
+		&:hover {
+			color: $primary-color;
+		}
+		i._mi {
+			margin-right: 10px;
+		}
+	}
+}
+
+// Copyright
+.copyright {
+	background: $dark-gray-color - #111111;
+	color: $gray-color;
+	//padding: 40px;
+	height: 100px;
+	&.sticky {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+	.col-xs-center {
+		width: 100%;
+		font-size: 90%;
+	}
+	.social {
+		margin-top: 10px;
+	}
+	.footer-fixed & {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+}
+.widget_text {
+	li {
+		line-height: 2.6;
+		i {
+			font-size: 18px;
+			margin-right: 10px;
+		}
+	}
+}

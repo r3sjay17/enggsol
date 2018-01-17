@@ -1,0 +1,105 @@
+// OUR-TEAM
+.our-team_item {
+    position: relative;
+    margin-bottom: 30px;
+	 text-align: center;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #000;
+        opacity: 0;
+        @extend %transit;
+    }
+    &:hover {
+        &::before {
+            opacity: 0.9;
+        }
+        .our-team_item-content {
+            opacity: 1;
+        }
+    }
+    &-content {
+        text-align: center;
+        padding: 15px;
+        opacity: 0;
+        @extend %transit;
+        @include center-y;
+        a h5 {
+            color: $primary-color;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        p {
+            margin-bottom: 30px;
+        }
+        .line {
+            display: none;
+        }
+        .social-link a {
+            color: $white-color;
+            border: 1px solid #777;
+            border-radius: 4px;
+            display: inline-block;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            &:hover {
+                background: $primary-color;
+                border-color: $primary-color;
+            }
+        }
+    }
+
+    &.show-all-information {
+        .our-team_item-content {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+            position: static;
+            .social-link a {
+                color: #111;
+            }
+        }
+        &:before {
+            display: none;
+        }
+        img {
+            margin-bottom: 10px;
+        }
+        a h5 {
+            color: #111;
+        }
+        p.pos {
+            margin-bottom: 0px;
+        }
+        .line {
+            display: block;
+            width: 80%;
+            margin: 25px auto;
+            height: 1px;
+            background-color: #EEEEEE;
+        }
+    }
+	 &.style-02 {
+	     .our-team_item-content {
+	         top: auto;
+	         bottom: 0;
+	         transform: none;
+	         padding: 30px;
+	         text-align: left;
+	         h4, a {
+	             color: #fff;
+	             margin-bottom: 5px;
+	         }
+	         p {
+	             color: #fff;
+	             margin-bottom: 0;
+	         }
+	     }
+	 }
+}

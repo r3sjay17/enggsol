@@ -1,0 +1,4146 @@
+# Copyright (C) 2016 tm-dione
+# This file is distributed under the same license as the tm-dione package.
+msgid ""
+msgstr ""
+"Project-Id-Version: tm-dione\n"
+"Report-Msgid-Bugs-To: http://thememove.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Language-Team: ThemeMove <thememovedotcom@gmail.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+
+#: src/tm-dione/404.php:17
+msgid "404"
+msgstr ""
+
+#: src/tm-dione/404.php:19
+msgid "Page not found!"
+msgstr ""
+
+#: src/tm-dione/404.php:22
+msgid "Sorry, the page you requested could not be found."
+msgstr ""
+
+#: src/tm-dione/404.php:25
+msgid "GO BACK"
+msgstr ""
+
+#: src/tm-dione/404.php:26
+msgid "HOMEPAGE"
+msgstr ""
+
+#: src/tm-dione/comments.php:29
+msgctxt "comments title"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: src/tm-dione/comments.php:54
+msgid "Older Comments"
+msgstr ""
+
+#: src/tm-dione/comments.php:56
+msgid "Newer Comments"
+msgstr ""
+
+#: src/tm-dione/comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#: src/tm-dione/comments.php:78
+msgid "Your name (required)"
+msgstr ""
+
+#: src/tm-dione/comments.php:79
+msgid "Your e-mail (required)"
+msgstr ""
+
+#: src/tm-dione/comments.php:83
+msgid "Send message"
+msgstr ""
+
+#: src/tm-dione/comments.php:85
+msgid "Write a Comment"
+msgstr ""
+
+#: src/tm-dione/comments.php:93
+msgid "Your comment (required)"
+msgstr ""
+
+#: src/tm-dione/core/BFI_Thumb.php:145
+msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
+msgstr ""
+
+#: src/tm-dione/core/BFI_Thumb.php:273
+msgid "Image rotate failed."
+msgstr ""
+
+#: src/tm-dione/core/BFI_Thumb.php:296
+msgid "Image opacity change failed."
+msgstr ""
+
+#: src/tm-dione/core/BFI_Thumb.php:383
+msgid "Image color change failed."
+msgstr ""
+
+#: src/tm-dione/core/BFI_Thumb.php:400
+msgid "Image grayscale failed."
+msgstr ""
+
+#: src/tm-dione/core/BFI_Thumb.php:417
+msgid "Image negate failed."
+msgstr ""
+
+#: src/tm-dione/functions.php:50
+msgid "Primary Menu"
+msgstr ""
+
+#: src/tm-dione/functions.php:51
+msgid "Top Menu"
+msgstr ""
+
+#: src/tm-dione/functions.php:52
+msgid "Mobile Menu"
+msgstr ""
+
+#: src/tm-dione/functions.php:53
+msgid "Social Menu"
+msgstr ""
+
+#: src/tm-dione/functions.php:114
+msgid "Sidebar"
+msgstr ""
+
+#: src/tm-dione/functions.php:116
+msgid "Area of right side"
+msgstr ""
+
+#: src/tm-dione/functions.php:124
+msgid "Top Slider"
+msgstr ""
+
+#: src/tm-dione/functions.php:126
+msgid "Area of top header"
+msgstr ""
+
+#: src/tm-dione/functions.php:134
+msgid "Header Right"
+msgstr ""
+
+#: src/tm-dione/functions.php:136
+msgid "Area of header right"
+msgstr ""
+
+#: src/tm-dione/functions.php:145
+msgid "Sidebar for shop"
+msgstr ""
+
+#: src/tm-dione/functions.php:147
+msgid "Area of Shop right side"
+msgstr ""
+
+#: src/tm-dione/functions.php:156
+msgid "Sidemenu"
+msgstr ""
+
+#: src/tm-dione/functions.php:158
+msgid "Area of Menu right side"
+msgstr ""
+
+#: src/tm-dione/functions.php:166
+msgid "Footer 1 Widget Area"
+msgstr ""
+
+#: src/tm-dione/functions.php:168
+msgid "Area of Footer-column-1"
+msgstr ""
+
+#: src/tm-dione/functions.php:176
+msgid "Footer 2 Widget Area"
+msgstr ""
+
+#: src/tm-dione/functions.php:178
+msgid "Area of Footer-column-2"
+msgstr ""
+
+#: src/tm-dione/functions.php:186
+msgid "Footer 3 Widget Area"
+msgstr ""
+
+#: src/tm-dione/functions.php:188
+msgid "Area of Footer-column-3"
+msgstr ""
+
+#: src/tm-dione/functions.php:196
+msgid "Footer 4 Widget Area"
+msgstr ""
+
+#: src/tm-dione/functions.php:198
+msgid "Area of Footer-column-4"
+msgstr ""
+
+#: src/tm-dione/functions.php:367
+msgid "Customize"
+msgstr ""
+
+#: src/tm-dione/functions.php:373
+msgid "Need Support?"
+msgstr ""
+
+#: src/tm-dione/header.php:77
+msgid "What are you looking for?"
+msgstr ""
+
+#: src/tm-dione/inc/back-compat.php:38, src/tm-dione/inc/back-compat.php:48, src/tm-dione/inc/back-compat.php:62
+msgid "Infinity requires at least WordPress version 3.9. You are running version %s. Please upgrade and try again."
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:8
+msgid "Header content enable"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:17
+msgid "Header icon enable"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:26
+msgid "Header description enable"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:35, src/tm-dione/inc/vc-maps/accordion.php:50, src/tm-dione/inc/vc-maps/call_to_action.php:24, src/tm-dione/inc/vc-maps/compare_table.php:71, src/tm-dione/inc/vc-maps/icon_with_text.php:37, src/tm-dione/inc/vc-maps/latest_blog.php:47, src/tm-dione/inc/vc-maps/params/params.php:20, src/tm-dione/inc/vc-maps/params/params.php:29, src/tm-dione/inc/vc-maps/price_box.php:19, src/tm-dione/inc/vc-maps/process_bar.php:35, src/tm-dione/inc/vc-maps/services.php:24
+msgid "Title"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:38
+msgid "Blog updates"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:51, src/tm-dione/inc/meta-box.php:278, src/tm-dione/inc/vc-maps/shop_banner.php:39
+msgid "Description"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:54
+msgid "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis mod tincidunt ut laoreet dolore mag na aliq uam erat volutpat."
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:67, src/tm-dione/inc/customizer/page/_general.php:143
+msgid "Title color"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:68
+msgid "Choose color for title text"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:84
+msgid "Blog Title Height"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:101
+msgid "List boxed enable"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:118, src/tm-dione/inc/customizer/footer/_background.php:5, src/tm-dione/inc/customizer/footer/_copyright.php:118, src/tm-dione/inc/customizer/header/_header-sticky.php:39, src/tm-dione/inc/customizer/header/_style.php:8
+msgid "Background color"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:119
+msgid "Setup background color for blog title"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:135
+msgid "Background image"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:136
+msgid "Default background image for your blog title"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:151
+msgid "Set up font settings for blog title"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:179
+msgid "Homepage layout"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:184
+msgid "Content - Sidebar"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:185
+msgid "Sidebar - Content"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:186, src/tm-dione/inc/customizer/footer/_copyright.php:24, src/tm-dione/inc/vc-maps/call_to_action.php:29, src/tm-dione/inc/vc-maps/services.php:32, src/tm-dione/inc/vc-maps/vc-maps.php:97
+msgid "Content"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:194
+msgid "Choose a blog preset you want"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:201, src/tm-dione/inc/customizer/footer/_footer.php:26
+msgid "Preset Default"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/blog/_blog.php:206
+msgid "Blog Full-width"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/custom/_css.php:8, src/tm-dione/inc/customizer/custom/_js.php:8, src/tm-dione/inc/meta-box.php:117, src/tm-dione/inc/vc-maps/google_map.php:68
+msgid "Enable"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/custom/_css.php:9, src/tm-dione/inc/customizer/custom/_js.php:9
+msgid "Enabling this option will display top area"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/custom/_css.php:19, src/tm-dione/inc/customizer/custom/_custom.php:6
+msgid "Custom CSS"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/custom/_custom.php:13, src/tm-dione/inc/customizer/custom/_js.php:19
+msgid "Custom JS"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/elements/_elements.php:7, src/tm-dione/inc/vc-maps/icon_with_text.php:95
+msgid "Link"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/elements/_elements.php:13
+msgid "Heading"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/elements/_heading.php:9, src/tm-dione/inc/customizer/elements/_link.php:30, src/tm-dione/inc/customizer/general/_breadscrumb.php:35, src/tm-dione/inc/customizer/general/_general.php:13, src/tm-dione/inc/vc-maps/accordion.php:151, src/tm-dione/inc/vc-maps/icon_with_text.php:167, src/tm-dione/inc/vc-maps/icons.php:66, src/tm-dione/inc/vc-maps/vc_column.php:255, src/tm-dione/inc/vc-maps/vc_row.php:448
+msgid "Color"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/elements/_heading.php:25
+msgid "Heading 1"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/elements/_heading.php:52
+msgid "Heading 2"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/elements/_heading.php:79
+msgid "Heading 3"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/elements/_heading.php:106
+msgid "Heading 4"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/elements/_heading.php:135
+msgid "Heading 5"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/elements/_heading.php:164
+msgid "Heading 6"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/elements/_link.php:9
+msgid "Set up font settings for text link"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/elements/_link.php:45
+msgid "Color on hover"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:21, src/tm-dione/inc/vc-maps/vc_column.php:134, src/tm-dione/inc/vc-maps/vc_row.php:177
+msgid "Background Image"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:36
+msgid "Background Position"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:42
+msgid "Top Left"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:43
+msgid "Top Center"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:44
+msgid "Top Right"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:45
+msgid "Center Left"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:46
+msgid "Center Center"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:47
+msgid "Center Right"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:48
+msgid "Bottom Left"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:49
+msgid "Bottom Center"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:50
+msgid "Bottom Right"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:63
+msgid "Background Repeat"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:69, src/tm-dione/inc/vc-maps/vc_column.php:152, src/tm-dione/inc/vc-maps/vc_row.php:195
+msgid "No Repeat"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:70, src/tm-dione/inc/vc-maps/vc_column.php:150, src/tm-dione/inc/vc-maps/vc_row.php:193
+msgid "Repeat X"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:71, src/tm-dione/inc/vc-maps/vc_column.php:151, src/tm-dione/inc/vc-maps/vc_row.php:194
+msgid "Repeat Y"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:72, src/tm-dione/inc/vc-maps/accordion.php:141
+msgid "Round"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:73
+msgid "Space"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:86
+msgid "Background Size"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:92, src/tm-dione/inc/vc-maps/vc_column.php:167, src/tm-dione/inc/vc-maps/vc_custom_heading.php:18, src/tm-dione/inc/vc-maps/vc_row.php:210
+msgid "Initial"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:93
+msgid "Contain"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_background.php:94
+msgid "Cover"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_copyright.php:5, src/tm-dione/inc/customizer/footer/_footer.php:127
+msgid "Copyright"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_copyright.php:6
+msgid "Enabling this option will display copyright area"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_copyright.php:14
+msgid "Social menu"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_copyright.php:15
+msgid "Enabling this option will display Social menu copyright area"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_copyright.php:25
+msgid "Entry the text for left block"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_copyright.php:49, src/tm-dione/inc/customizer/footer/_style.php:6, src/tm-dione/inc/customizer/general/_color.php:8
+msgid "Text color"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_copyright.php:72, src/tm-dione/inc/customizer/footer/_style.php:22
+msgid "Link color"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_copyright.php:95, src/tm-dione/inc/customizer/footer/_style.php:38
+msgid "Link color on hover"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_copyright.php:140, src/tm-dione/inc/vc-maps/google_map.php:44, src/tm-dione/inc/vc-maps/vc_row.php:337
+msgid "Height"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_copyright.php:163
+msgid "Text align"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:8
+msgid "Use footer"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:9
+msgid "Enabling this option will display footer area"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:19
+msgid "Choose a footer preset you want"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:31
+msgid "Preset Full-width"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:37
+msgid "Preset Full-width and 3 columns"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:48
+msgid "Hide Footer"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:59
+msgid "Hide Footer - Light version"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:69
+msgid "Hide Footer - Hide Copyright"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:83
+msgid "Footer Parallax"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:84
+msgid "Enabling this option will Parallax on Footer"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:95, src/tm-dione/inc/customizer/navigation/_nav.php:5, src/tm-dione/inc/vc-maps/accordion.php:132, src/tm-dione/inc/vc-maps/call_to_action.php:145, src/tm-dione/inc/vc-maps/latest_blog.php:25, src/tm-dione/inc/vc-maps/vc_tta_tabs.php:6
+msgid "Style"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:105, src/tm-dione/inc/customizer/header/_header.php:22, src/tm-dione/inc/vc-maps/vc_column.php:92, src/tm-dione/inc/vc-maps/vc_row.php:135, src/tm-dione/inc/vc-maps/vc_row.php:383
+msgid "Background"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_footer.php:115, src/tm-dione/inc/customizer/header/_header.php:14, src/tm-dione/inc/customizer/page/_general.php:8, src/tm-dione/inc/customizer/portfolio/_single_portfolio.php:8, src/tm-dione/inc/customizer/woocommerce/_layout.php:8, src/tm-dione/inc/customizer/woocommerce/_woo.php:13, src/tm-dione/inc/meta-box.php:216
+msgid "Layout"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_layout.php:6
+msgid "Footer Type"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_layout.php:7
+msgid "Choose the Footer type you want"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_layout.php:12
+msgid "Footer 01"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_layout.php:13
+msgid "Footer 02"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_layout.php:20
+msgid "Footer Full Width"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_layout.php:29
+msgid "Quantity of footer columns"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_layout.php:44
+msgid "Custom Width of Columns"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_layout.php:45
+msgid "Enabling this option will Custom Width of Column"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_layout.php:54
+msgid "Width of footer columns 1 (%)"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_layout.php:84
+msgid "Width of footer columns 2 (%)"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_layout.php:114
+msgid "Width of footer columns 3 (%)"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_layout.php:144
+msgid "Width of footer columns 4 (%)"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_padding.php:6
+msgid "Padding"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/footer/_style.php:55
+msgid "Widgets title color"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/general/_breadscrumb.php:8, src/tm-dione/inc/meta-box.php:112
+msgid "Breadcrumb"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/general/_breadscrumb.php:9
+msgid "Enabling this option will display breadcrumb on every page"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/general/_breadscrumb.php:19
+msgid "\"Root\" text"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/general/_breadscrumb.php:58
+msgid "Color active"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/general/_color.php:9
+msgid "Choose color for body text"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/general/_color.php:26
+msgid "First Main Color"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/general/_color.php:68
+msgid "Second Main Color"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/general/_font.php:8, src/tm-dione/inc/customizer/navigation/_style.php:9
+msgid "Set up font settings for body text"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/general/_general.php:7
+msgid "Font"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/general/_general.php:19
+msgid "Breadscrumb"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_config.php:7, src/tm-dione/inc/customizer/header/_header.php:6
+msgid "Header base config"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_config.php:9
+msgid "Choose a base header config you want"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_config.php:16, src/tm-dione/inc/customizer/header/_layout.php:28, src/tm-dione/inc/customizer/woocommerce/_config.php:15, src/tm-dione/inc/meta-box.php:66, src/tm-dione/inc/meta-box.php:78, src/tm-dione/inc/meta-box.php:116, src/tm-dione/inc/meta-box.php:168, src/tm-dione/inc/meta-box.php:221, src/tm-dione/inc/vc-maps/blog.php:32, src/tm-dione/inc/vc-maps/call_to_action.php:83, src/tm-dione/inc/vc-maps/call_to_action.php:116, src/tm-dione/inc/vc-maps/call_to_action.php:148, src/tm-dione/inc/vc-maps/carousel.php:134, src/tm-dione/inc/vc-maps/google_map.php:91, src/tm-dione/inc/vc-maps/price_box.php:57, src/tm-dione/inc/vc-maps/vc_column.php:101, src/tm-dione/inc/vc-maps/vc_row.php:144
+msgid "Default"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_config.php:21
+msgid "Dark, Full-width"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_config.php:29
+msgid "Centered Logo, Full-width"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_config.php:35
+msgid "Centered Logo, Full-width has margin"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_config.php:42
+msgid "Full-width, hide main menu, show sidemenu"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_config.php:50
+msgid "Full-width, hide main menu, show sidemenu - Light"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_config.php:61
+msgid "Left Header - Dark"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_config.php:68, src/tm-dione/inc/customizer/header/_layout.php:15
+msgid "Left Header"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_config.php:74, src/tm-dione/inc/customizer/header/_layout.php:16
+msgid "Blank Header"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_header-sticky.php:8
+msgid "Sticky Header enable"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_header-sticky.php:17, src/tm-dione/inc/customizer/header/_layout.php:75
+msgid "Header height"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_header-sticky.php:62
+msgid "Border color"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_header.php:30
+msgid "Header fixed"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:8
+msgid "Header template"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:9
+msgid "Choose the header template you want"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:14
+msgid "Top Header"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:22
+msgid "Header style"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:23
+msgid "Choose the header style you want"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:29
+msgid "Light"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:30
+msgid "Dark"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:36
+msgid "Nav boxed"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:45
+msgid "Right-side menu"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:46
+msgid "Turn on this option if you want to enable Right-side menu in header"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:55
+msgid "Hide Main menu"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:56
+msgid "Turn on this option if you want to hide Main menu in header"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:65
+msgid "Search"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/header/_layout.php:66
+msgid "Turn on this option if you want to enable search box in header"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_favicon.php:8, src/tm-dione/inc/customizer/logo/_logo.php:30
+msgid "Favicon"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_favicon.php:9
+msgid "File must be .png or .ico format. Optimal dimensions: 32px x 32px"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_favicon.php:17
+msgid "Apple Touch Icon"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_favicon.php:18
+msgid "File must be .png format. Optimal dimensions: 152px x 152px"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_image.php:8
+msgid "Logo Normal"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_image.php:9
+msgid "Choose a default logo image to display"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_image.php:18
+msgid "Logo Image - Light"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_image.php:19
+msgid "Choose a logo image to display for \"Light\" header skin"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_image.php:27
+msgid "Logo Image - Dark"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_image.php:28
+msgid "Choose a logo image to display for \"Dark\" header skin"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_image.php:37
+msgid "Logo Image - Sticky Header"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_image.php:38
+msgid "Choose a logo image to display for \"Sticky\" header type"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_layout.php:8
+msgid "Centered Logo"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_logo.php:6
+msgid "Logo images"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_logo.php:13
+msgid "Logo layout"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_logo.php:20
+msgid "Logo size"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_size.php:8
+msgid "Enable custom Logo size"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_size.php:17
+msgid "Height (px)"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_size.php:40
+msgid "Width (px)"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_size.php:63
+msgid "Height - Mobile (px)"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/logo/_size.php:86
+msgid "Width - Mobile (px)"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/navigation/_nav.php:12
+msgid "Sticky"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/navigation/_sticky.php:8, src/tm-dione/inc/customizer/navigation/_style.php:36
+msgid "Main menu item color"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/navigation/_sticky.php:36, src/tm-dione/inc/customizer/navigation/_style.php:64
+msgid "Main menu item hover color"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_general.php:17
+msgid "Choose Layout for page"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_general.php:23, src/tm-dione/inc/customizer/woocommerce/_layout.php:23
+msgid "Wide or boxed"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_general.php:36, src/tm-dione/inc/meta-box.php:73
+msgid "Page title"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_general.php:50
+msgid "Set up font settings for page title"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_general.php:85
+msgid "Page Title Height"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_general.php:109, src/tm-dione/inc/vc-maps/line.php:43
+msgid "Margin"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_general.php:144
+msgid "Choose color for title"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_general.php:167
+msgid "Title's Background color"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_general.php:168
+msgid "Setup background color for your header"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_general.php:191
+msgid "Title's Background image"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_general.php:192
+msgid "Default background image for your header"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_page.php:5, src/tm-dione/inc/customizer/panels.php:54, src/tm-dione/template-parts/content-single.php:30
+msgid "Page"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_page.php:12
+msgid "Archive page"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/page/_page.php:19
+msgid "Search page"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:6
+msgid "General settings"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:7
+msgid "Typo Customize, background, color.."
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:14
+msgid "Logo"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:15
+msgid "Choose logo for your site"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:22
+msgid "Elements"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:23, src/tm-dione/inc/customizer/panels.php:39, src/tm-dione/inc/customizer/panels.php:47, src/tm-dione/inc/customizer/panels.php:63, src/tm-dione/inc/customizer/panels.php:71
+msgid "My Description"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:30
+msgid "Header"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:31
+msgid "Top area above header with break news and social icons"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:38
+msgid "Footer"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:46, src/tm-dione/inc/vc-maps/thememove-menu.php:25
+msgid "Menu"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:55
+msgid "Custom for Pages, Archive, Search"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:62, src/tm-dione/inc/vc-maps/blog.php:13
+msgid "Blog"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:70
+msgid "Portfolio"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:79
+msgid "Woocommerce"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:80
+msgid "Setting for Shop"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:88
+msgid "Custom code"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/panels.php:89
+msgid "You can add custom CSS and Javascript here"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/portfolio/_portfolio.php:6
+msgid "Single portfolio"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/portfolio/_single_portfolio.php:13, src/tm-dione/inc/meta-box.php:222
+msgid "1 Column"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/portfolio/_single_portfolio.php:14, src/tm-dione/inc/customizer/woocommerce/_layout.php:41, src/tm-dione/inc/meta-box.php:223
+msgid "2 Columns"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/portfolio/_single_portfolio.php:21
+msgid "Header section Enable"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/portfolio/_single_portfolio.php:22
+msgid "Turn on this option if you want to enable header section"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/portfolio/_single_portfolio.php:31
+msgid "\"Visit\" button Enable"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/portfolio/_single_portfolio.php:40
+msgid "Client Enable"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/portfolio/_single_portfolio.php:49
+msgid "Share Enable"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_cart.php:8
+msgid "Mini Cart"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_cart.php:9
+msgid "Turn on this option if you want to enable mini cart in header"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_config.php:8
+msgid "Choose a base config you want"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_config.php:20
+msgid "Boxed"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_config.php:28
+msgid "Wide"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_config.php:36
+msgid "Boxed + sidebar"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_config.php:44
+msgid "Wide + sidebar"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_layout.php:17
+msgid "Choose Layout for shop"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_layout.php:36
+msgid "Columns of Product"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_layout.php:42
+msgid "3 Columns"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_layout.php:43
+msgid "4 Columns"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_woo.php:6
+msgid "Base config"
+msgstr ""
+
+#: src/tm-dione/inc/customizer/woocommerce/_woo.php:20
+msgid "Mini cart"
+msgstr ""
+
+#: src/tm-dione/inc/extras.php:91
+msgid "Page %s"
+msgstr ""
+
+#: src/tm-dione/inc/extras.php:123
+msgid "View your shopping cart"
+msgstr ""
+
+#: src/tm-dione/inc/extras.php:170
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: src/tm-dione/inc/extras.php:176
+msgid "%1$s"
+msgstr ""
+
+#: src/tm-dione/inc/extras.php:177
+msgid "(Edit)"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:61
+msgid "Page Layout"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:62
+msgid "Choose a layout you want"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:67
+msgid "Full width"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:68
+msgid "Content-Sidebar"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:69
+msgid "Sidebar-Content"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:74
+msgid "Choose a style"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:79
+msgid "Center Style"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:80, src/tm-dione/inc/vc-maps/accordion.php:165, src/tm-dione/inc/vc-maps/accordion.php:185, src/tm-dione/inc/vc-maps/accordion.php:216, src/tm-dione/inc/vc-maps/accordion.php:244, src/tm-dione/inc/vc-maps/vc_custom_heading.php:14, src/tm-dione/inc/vc-maps/vc_row.php:288
+msgid "None"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:84, src/tm-dione/inc/meta-box.php:227
+msgid "Title Background"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:85, src/tm-dione/inc/meta-box.php:228
+msgid "Upload an image or enter a URL for heading title"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:90
+msgid "Custom Title"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:95
+msgid "Custom Description"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:100
+msgid "Title Height"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:101
+msgid "Example: 500px"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:106
+msgid "Title margin botom"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:107
+msgid "Example: 50px"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:118
+msgid "Disable"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:122
+msgid "Disable Comment"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:123
+msgid "Check this box to disable comment form of the page"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:128
+msgid "Overlay Menu"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:129
+msgid "Check this box to enable Overlay Menu"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:134
+msgid "Onepage scroll"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:135
+msgid "Check this box to enable Onepage scroll"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:140
+msgid "Sticky Header"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:141
+msgid "Check this box to enable Sticky Header Enable"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:146
+msgid "Custom Class"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:147
+msgid "Enter custom class for this page"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:152
+msgid "Main menu"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:153
+msgid "Choose main menu for this page"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:194
+msgid "Page Settings"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:207
+msgid "Portfolio Settings"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:217
+msgid "Choose a layout"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:233, src/tm-dione/template-parts/content-portfolio-1-column.php:28, src/tm-dione/template-parts/content-portfolio-2-columns.php:83
+msgid "Client"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:234
+msgid "Enter the client name"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:239, src/tm-dione/inc/meta-box.php:284
+msgid "Website"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:240
+msgid "Enter the link"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:245
+msgid "Gallery Images"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:246
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:257
+msgid "Testimonials Settings"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:266
+msgid "Author"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:267
+msgid "Enter the author name"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:272, src/tm-dione/inc/vc-maps/icon_with_text.php:42
+msgid "Text"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:273
+msgid "Enter the testimonial text"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:279
+msgid "Enter the Description text"
+msgstr ""
+
+#: src/tm-dione/inc/meta-box.php:285
+msgid "Enter full URL of the author's website"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:79
+msgid "Previous"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:82
+msgid "Next"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:107
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:112
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:129, src/tm-dione/inc/template-tags.php:135, src/tm-dione/template-parts/content-blog.php:27, src/tm-dione/template-parts/content-index.php:22
+msgid ", "
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:131
+msgid "Posted in %1$s"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:137
+msgid "Tagged %1$s"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:143
+msgid "Leave a comment"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:143
+msgid "1 Comment"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:143
+msgid "% Comments"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:147, src/tm-dione/template-parts/content-page.php:28
+msgid "Edit"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:164
+msgid "Category: %s"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:166
+msgid "Tag: %s"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:168
+msgid "Author: %s"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:170
+msgid "Year: %s"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:170
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:172
+msgid "Month: %s"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:172
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:174
+msgid "Day: %s"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:174
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:185
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:187
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:189
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:191
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:193
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:196
+msgid "Archives: %s"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:200
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: src/tm-dione/inc/template-tags.php:202
+msgid "Archives"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:667, src/tm-dione/inc/tgm-plugin-registration.php:93
+msgid "Install Required Plugins"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:669, src/tm-dione/inc/tgm-plugin-registration.php:94
+msgid "Install Plugins"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:673, src/tm-dione/inc/tgm-plugin-registration.php:95
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:677
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:679, src/tm-dione/inc/tgm-plugin-registration.php:97
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:681
+msgid "/*translators:1:pluginnames.*/This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:693
+msgid "/*translators:1:pluginnames.*/This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:705
+msgid "/*translators:1:pluginnames.*/The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:717
+msgid "/*translators:1:pluginnames.*/There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:729
+msgid "/*translators:1:pluginnames.*/The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:741
+msgid "/*translators:1:pluginnames.*/The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:753, src/tm-dione/inc/tgm-plugin-registration.php:116
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:763, src/tm-dione/inc/tgm-plugin-registration.php:117
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:773, src/tm-dione/inc/tgm-plugin-registration.php:118
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:783, src/tm-dione/inc/tgm-plugin-registration.php:119
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:785, src/tm-dione/inc/tgm-plugin-activation.php:1839, src/tm-dione/inc/tgm-plugin-activation.php:5251, src/tm-dione/inc/tgm-plugin-activation.php:7345
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:787, src/tm-dione/inc/tgm-plugin-activation.php:6503, src/tm-dione/inc/tgm-plugin-registration.php:120
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:789, src/tm-dione/inc/tgm-plugin-registration.php:121
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:793, src/tm-dione/inc/tgm-plugin-registration.php:122
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:797, src/tm-dione/inc/tgm-plugin-registration.php:124
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:801, src/tm-dione/inc/tgm-plugin-registration.php:126
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:803
+msgid "Dismiss this notice"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:805
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:807, src/tm-dione/inc/tgm-plugin-registration.php:128
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:1213
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:1215
+msgid "Update Required"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:1449
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:2053
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:2053, src/tm-dione/inc/tgm-plugin-activation.php:2059
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:2059
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:2427, src/tm-dione/inc/tgm-plugin-activation.php:6081
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4149
+msgid "TGMPA v%s"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4731
+msgid "Required"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4737
+msgid "Recommended"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4769
+msgid "WordPress Repository"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4775
+msgid "External Source"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4781
+msgid "Pre-Packaged"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4815
+msgid "Not Installed"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4823
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4827
+msgid "Active"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4839
+msgid "Required Update not Available"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4845
+msgid "Requires Update"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4851
+msgid "Update recommended"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4869
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4961
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4969
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4977
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:4985
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5149
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5165
+msgid "Installed version:"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5181
+msgid "Minimum required version:"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5205
+msgid "Available version:"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5251
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5279
+msgid "Plugin"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5281
+msgid "Source"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5283, src/tm-dione/inc/vc-maps/blog.php:29, src/tm-dione/inc/vc-maps/vc_row.php:285
+msgid "Type"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5291
+msgid "Version"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5293
+msgid "Status"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5391
+msgid "Install %2$s"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5401
+msgid "Update %2$s"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5413
+msgid "Activate %2$s"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5553
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5619
+msgid "Install"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5631
+msgid "Update"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5637
+msgid "Activate"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5699
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5703
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5785
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:5789
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:6001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:6053
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:6089
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:6501
+msgid "Plugin activation failed."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7181
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7187
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7191
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7199
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7203
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7203, src/tm-dione/inc/tgm-plugin-activation.php:7219
+msgid "Show Details"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7203, src/tm-dione/inc/tgm-plugin-activation.php:7219
+msgid "Hide Details"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7205
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7209
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7215
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7219
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7221
+msgid "All installations have been completed."
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-activation.php:7225
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:7
+msgid "ThemeMove Core"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:15
+msgid "Dione plugin"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:24
+msgid "Visual Composer"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:31
+msgid "Revolution Slider"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:40
+msgid "WooCommerce"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:46
+msgid "Loco Translate"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:52
+msgid "Widget Logic"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:58
+msgid "Contact Form 7"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:64
+msgid "MailChimp"
+msgstr ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:98
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:100
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:102
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:104
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:106
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:108
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:110
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:112
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/tgm-plugin-registration.php:114
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:13
+msgid "Add icon?"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:14
+msgid "Add icon next to section title."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:20
+msgid "Before title"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:21
+msgid "After title"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:27
+msgid "Icon position"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:28
+msgid "Select icon position."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:51
+msgid "Enter section title (Note: you can leave it empty)."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:59
+msgid "Section ID"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:60
+msgid "Enter section ID (Note: make sure it is unique and valid according to <a href=\"%s\" target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:67, src/tm-dione/inc/vc-maps/accordion.php:277, src/tm-dione/inc/vc-maps/blog.php:66, src/tm-dione/inc/vc-maps/call_to_action.php:139, src/tm-dione/inc/vc-maps/carousel.php:155, src/tm-dione/inc/vc-maps/countdown.php:60, src/tm-dione/inc/vc-maps/counter.php:127, src/tm-dione/inc/vc-maps/google_map.php:117, src/tm-dione/inc/vc-maps/latest_blog.php:74, src/tm-dione/inc/vc-maps/line.php:48, src/tm-dione/inc/vc-maps/list.php:48, src/tm-dione/inc/vc-maps/portfolio_carousel.php:106, src/tm-dione/inc/vc-maps/portfolio_grid.php:206, src/tm-dione/inc/vc-maps/portfolio_list.php:111, src/tm-dione/inc/vc-maps/process_bar.php:106, src/tm-dione/inc/vc-maps/services.php:62, src/tm-dione/inc/vc-maps/shop_banner.php:64, src/tm-dione/inc/vc-maps/svg.php:41, src/tm-dione/inc/vc-maps/vc_tta_accordion.php:40
+msgid "Extra class name"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:69, src/tm-dione/inc/vc-maps/accordion.php:279
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:79
+msgid "TM section"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:88, src/tm-dione/inc/vc-maps/accordion.php:114, src/tm-dione/inc/vc-maps/accordion.php:312, src/tm-dione/inc/vc-maps/accordion.php:316, src/tm-dione/inc/vc-maps/blog.php:15, src/tm-dione/inc/vc-maps/button.php:10, src/tm-dione/inc/vc-maps/call_to_action.php:16, src/tm-dione/inc/vc-maps/carousel.php:15, src/tm-dione/inc/vc-maps/compare_table.php:35, src/tm-dione/inc/vc-maps/countdown.php:16, src/tm-dione/inc/vc-maps/counter.php:16, src/tm-dione/inc/vc-maps/google_map.php:18, src/tm-dione/inc/vc-maps/icon_with_text.php:18, src/tm-dione/inc/vc-maps/icons.php:16, src/tm-dione/inc/vc-maps/latest_blog.php:15, src/tm-dione/inc/vc-maps/line.php:16, src/tm-dione/inc/vc-maps/list.php:15, src/tm-dione/inc/vc-maps/message.php:11, src/tm-dione/inc/vc-maps/portfolio_carousel.php:28, src/tm-dione/inc/vc-maps/portfolio_grid.php:28, src/tm-dione/inc/vc-maps/portfolio_list.php:28, src/tm-dione/inc/vc-maps/price_box.php:15, src/tm-dione/inc/vc-maps/process_bar.php:15, src/tm-dione/inc/vc-maps/services.php:7, src/tm-dione/inc/vc-maps/shop_banner.php:15, src/tm-dione/inc/vc-maps/svg.php:15, src/tm-dione/inc/vc-maps/team_member.php:15, src/tm-dione/inc/vc-maps/team_member2.php:15, src/tm-dione/inc/vc-maps/testimonials.php:16, src/tm-dione/inc/vc-maps/thememove-menu.php:19, src/tm-dione/inc/vc-maps/tm_video.php:9, src/tm-dione/inc/vc-maps/tm_woo_products.php:40, src/tm-dione/inc/vc-maps/vc_column_text.php:56, src/tm-dione/inc/vc-maps/vc_custom_heading.php:29, src/tm-dione/inc/vc-maps/vc_gallery.php:45, src/tm-dione/inc/vc-maps/vc_tta_accordion.php:46, src/tm-dione/inc/vc-maps/vc_tta_section.php:79, src/tm-dione/inc/vc-maps/vc_tta_tabs.php:18, src/tm-dione/inc/vc-maps/vc-maps.php:12, src/tm-dione/inc/vc-maps/vc-maps.php:17, src/tm-dione/inc/vc-maps/vc-maps.php:22, src/tm-dione/inc/vc-maps/vc-maps.php:27
+msgid "by %s"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:89
+msgid "Section for Tabs, Tours, Accordions."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:106
+msgid "TM Accordion"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:115
+msgid "Collapsible content panels"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:120
+msgid "Widget title"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:121
+msgid "Enter text used as widget title (Note: located above content element)."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:127
+msgid "Classic"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:128
+msgid "Modern"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:129
+msgid "Flat"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:130
+msgid "Outline"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:133
+msgid "Select accordion display style."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:139
+msgid "Rounded"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:140
+msgid "Square"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:143
+msgid "Shape"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:144
+msgid "Select accordion shape."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:152
+msgid "Select accordion color."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:158
+msgid "Do not fill content area?"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:159
+msgid "Do not fill content area with color."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:178
+msgid "Spacing"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:179
+msgid "Select accordion spacing."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:198
+msgid "Gap"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:199
+msgid "Select accordion gap."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:205, src/tm-dione/inc/vc-maps/accordion.php:257
+msgid "Left"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:206, src/tm-dione/inc/vc-maps/accordion.php:258
+msgid "Right"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:207
+msgid "Center"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:209
+msgid "Alignment"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:210
+msgid "Select accordion section title alignment."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:230
+msgid "Autoplay"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:231
+msgid "Select auto rotate for accordion in seconds (Note: disabled by default)."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:236, src/tm-dione/inc/vc-maps/vc_tta_accordion.php:25
+msgid "Allow collapse all?"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:237
+msgid "Allow collapse all accordion sections."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:245
+msgid "Chevron"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:246
+msgid "Plus"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:247, src/tm-dione/inc/vc-maps/vc_row.php:289
+msgid "Triangle"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:250, src/tm-dione/inc/vc-maps/params/icons.php:4, src/tm-dione/inc/vc-maps/params/icons.php:21, src/tm-dione/inc/vc-maps/params/icons.php:37, src/tm-dione/inc/vc-maps/params/icons.php:53, src/tm-dione/inc/vc-maps/params/icons.php:68, src/tm-dione/inc/vc-maps/params/icons.php:84
+msgid "Icon"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:251
+msgid "Select accordion navigation icon."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:264, src/tm-dione/inc/vc-maps/vc_row.php:317
+msgid "Position"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:265
+msgid "Select accordion navigation icon position."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:271, src/tm-dione/inc/vc-maps/vc_tta_section.php:58
+msgid "Active section"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:273
+msgid "Enter active section number (Note: to have all sections closed on initial load enter non-existing number)."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:283
+msgid "CSS box"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:285, src/tm-dione/inc/vc-maps/tm_video.php:67
+msgid "Design Options"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:298
+msgid "Add Section"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/accordion.php:307, src/tm-dione/inc/vc-maps/accordion.php:307, src/tm-dione/inc/vc-templates/vc_tta_section.php:8
+msgid "Section"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/blog.php:10, src/tm-dione/inc/vc-maps/call_to_action.php:10, src/tm-dione/inc/vc-maps/carousel.php:10, src/tm-dione/inc/vc-maps/compare_table.php:15, src/tm-dione/inc/vc-maps/countdown.php:10, src/tm-dione/inc/vc-maps/counter.php:11, src/tm-dione/inc/vc-maps/icon_with_text.php:11, src/tm-dione/inc/vc-maps/icons.php:11, src/tm-dione/inc/vc-maps/latest_blog.php:10, src/tm-dione/inc/vc-maps/line.php:11, src/tm-dione/inc/vc-maps/list.php:10, src/tm-dione/inc/vc-maps/portfolio_carousel.php:10, src/tm-dione/inc/vc-maps/portfolio_grid.php:10, src/tm-dione/inc/vc-maps/portfolio_list.php:10, src/tm-dione/inc/vc-maps/process_bar.php:10, src/tm-dione/inc/vc-maps/shop_banner.php:10, src/tm-dione/inc/vc-maps/svg.php:10, src/tm-dione/inc/vc-maps/team_member.php:10, src/tm-dione/inc/vc-maps/team_member2.php:10, src/tm-dione/inc/vc-maps/testimonials.php:11, src/tm-dione/inc/vc-maps/vc_tta_accordion.php:20, src/tm-dione/inc/vc-maps/vc_tta_section.php:12
+msgid "Design options"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/blog.php:21
+msgid "Base width of Image"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/blog.php:24, src/tm-dione/inc/vc-maps/portfolio_grid.php:47
+msgid "Number of image's width, Example: 500"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/blog.php:33
+msgid "Metro"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/blog.php:38, src/tm-dione/inc/vc-maps/latest_blog.php:53
+msgid "Order"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/blog.php:41, src/tm-dione/inc/vc-maps/latest_blog.php:56
+msgid "ASC"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/blog.php:42, src/tm-dione/inc/vc-maps/latest_blog.php:57
+msgid "DESC"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/blog.php:47
+msgid "Time format"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/blog.php:54, src/tm-dione/inc/vc-maps/latest_blog.php:62
+msgid "Enter Category IDs"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/blog.php:60, src/tm-dione/inc/vc-maps/latest_blog.php:68
+msgid "Enter Author IDs"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/blog.php:68, src/tm-dione/inc/vc-maps/call_to_action.php:141, src/tm-dione/inc/vc-maps/carousel.php:157, src/tm-dione/inc/vc-maps/countdown.php:62, src/tm-dione/inc/vc-maps/counter.php:129, src/tm-dione/inc/vc-maps/latest_blog.php:76, src/tm-dione/inc/vc-maps/line.php:50, src/tm-dione/inc/vc-maps/list.php:50, src/tm-dione/inc/vc-maps/portfolio_carousel.php:108, src/tm-dione/inc/vc-maps/portfolio_grid.php:208, src/tm-dione/inc/vc-maps/portfolio_list.php:113, src/tm-dione/inc/vc-maps/process_bar.php:108, src/tm-dione/inc/vc-maps/shop_banner.php:66, src/tm-dione/inc/vc-maps/svg.php:43, src/tm-dione/inc/vc-maps/vc_tta_accordion.php:42
+msgid "Style particular content element differently - add a class name and refer to it in custom CSS."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/blog.php:72, src/tm-dione/inc/vc-maps/call_to_action.php:154, src/tm-dione/inc/vc-maps/carousel.php:161, src/tm-dione/inc/vc-maps/compare_table.php:199, src/tm-dione/inc/vc-maps/countdown.php:164, src/tm-dione/inc/vc-maps/counter.php:133, src/tm-dione/inc/vc-maps/icon_with_text.php:251, src/tm-dione/inc/vc-maps/icons.php:111, src/tm-dione/inc/vc-maps/latest_blog.php:80, src/tm-dione/inc/vc-maps/list.php:54, src/tm-dione/inc/vc-maps/portfolio_carousel.php:112, src/tm-dione/inc/vc-maps/portfolio_grid.php:212, src/tm-dione/inc/vc-maps/portfolio_list.php:117, src/tm-dione/inc/vc-maps/process_bar.php:112, src/tm-dione/inc/vc-maps/shop_banner.php:70, src/tm-dione/inc/vc-maps/svg.php:54, src/tm-dione/inc/vc-maps/team_member.php:114, src/tm-dione/inc/vc-maps/team_member2.php:120, src/tm-dione/inc/vc-maps/testimonials.php:119, src/tm-dione/inc/vc-maps/vc_tta_section.php:73
+msgid "Css"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/button.php:11
+msgid "Custom button"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/button.php:17, src/tm-dione/inc/vc-maps/call_to_action.php:60, src/tm-dione/inc/vc-maps/price_box.php:36, src/tm-dione/inc/vc-maps/shop_banner.php:34
+msgid "Button"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/button.php:86, src/tm-dione/inc/vc-maps/icon_with_text.php:135, src/tm-dione/inc/vc-maps/icons.php:36, src/tm-dione/inc/vc-maps/message.php:48, src/tm-dione/inc/vc-maps/vc_tta_section.php:32
+msgid "Icon library"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/button.php:88, src/tm-dione/inc/vc-maps/icon_with_text.php:137, src/tm-dione/inc/vc-maps/icons.php:38, src/tm-dione/inc/vc-maps/message.php:51, src/tm-dione/inc/vc-maps/vc_tta_section.php:35
+msgid "Font Awesome"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/button.php:89, src/tm-dione/inc/vc-maps/icon_with_text.php:138, src/tm-dione/inc/vc-maps/icons.php:39, src/tm-dione/inc/vc-maps/message.php:52, src/tm-dione/inc/vc-maps/vc_tta_section.php:36
+msgid "Open Iconic"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/button.php:90, src/tm-dione/inc/vc-maps/icon_with_text.php:139, src/tm-dione/inc/vc-maps/icons.php:40, src/tm-dione/inc/vc-maps/message.php:53, src/tm-dione/inc/vc-maps/vc_tta_section.php:37
+msgid "Typicons"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/button.php:91, src/tm-dione/inc/vc-maps/icon_with_text.php:140, src/tm-dione/inc/vc-maps/icons.php:41, src/tm-dione/inc/vc-maps/message.php:54, src/tm-dione/inc/vc-maps/vc_tta_section.php:38
+msgid "Entypo"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/button.php:92, src/tm-dione/inc/vc-maps/icon_with_text.php:141, src/tm-dione/inc/vc-maps/icons.php:42, src/tm-dione/inc/vc-maps/message.php:55, src/tm-dione/inc/vc-maps/vc_tta_section.php:39
+msgid "Linecons"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/button.php:93, src/tm-dione/inc/vc-maps/icon_with_text.php:142, src/tm-dione/inc/vc-maps/icons.php:43, src/tm-dione/inc/vc-maps/message.php:56, src/tm-dione/inc/vc-maps/vc_tta_section.php:40
+msgid "P7 Stroke"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/button.php:97, src/tm-dione/inc/vc-maps/icon_with_text.php:146, src/tm-dione/inc/vc-maps/icons.php:47, src/tm-dione/inc/vc-maps/message.php:60, src/tm-dione/inc/vc-maps/vc_tta_section.php:44
+msgid "Select icon library."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/button.php:240
+msgid "Please insert margin in format: 0px 0px 1px 0px"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/button.php:248
+msgid "Please insert border radius(Rounded corners) in px. For example: 4 "
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:11, src/tm-dione/inc/vc-maps/icon_with_text.php:12
+msgid "Icon options"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:14
+msgid "Call-To-Action"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:35
+msgid "Title Color"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:42
+msgid "Title Element Tag"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:56
+msgid "Select element tag."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:65, src/tm-dione/inc/vc-maps/price_box.php:41
+msgid "Button Style"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:80, src/tm-dione/inc/vc-maps/price_box.php:54
+msgid "Button Size"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:84, src/tm-dione/inc/vc-maps/call_to_action.php:117, src/tm-dione/inc/vc-maps/price_box.php:58
+msgid "Small"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:85, src/tm-dione/inc/vc-maps/call_to_action.php:118, src/tm-dione/inc/vc-maps/price_box.php:59
+msgid "Medium"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:86, src/tm-dione/inc/vc-maps/call_to_action.php:119, src/tm-dione/inc/vc-maps/price_box.php:60
+msgid "Large"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:93
+msgid "Button 2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:98
+msgid "Button 2 Style"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:113
+msgid "Button 2 Size"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/call_to_action.php:149
+msgid "Inline Style"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/carousel.php:44
+msgid "Hide Images"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/carousel.php:50, src/tm-dione/inc/vc-maps/carousel.php:63, src/tm-dione/inc/vc-maps/carousel.php:97, src/tm-dione/inc/vc-maps/carousel.php:124, src/tm-dione/inc/vc-maps/carousel.php:148, src/tm-dione/inc/vc-maps/compare_table.php:57, src/tm-dione/inc/vc-maps/compare_table.php:149, src/tm-dione/inc/vc-maps/icon_with_text.php:30, src/tm-dione/inc/vc-maps/icon_with_text.php:113, src/tm-dione/inc/vc-maps/icon_with_text.php:189, src/tm-dione/inc/vc-maps/icon_with_text.php:209, src/tm-dione/inc/vc-maps/icon_with_text.php:242, src/tm-dione/inc/vc-maps/portfolio_grid.php:154, src/tm-dione/inc/vc-maps/price_box.php:103, src/tm-dione/inc/vc-maps/process_bar.php:27, src/tm-dione/inc/vc-maps/team_member.php:100, src/tm-dione/inc/vc-maps/team_member2.php:84, src/tm-dione/inc/vc-maps/testimonials.php:75, src/tm-dione/inc/vc-maps/testimonials.php:89, src/tm-dione/inc/vc-maps/testimonials.php:104, src/tm-dione/inc/vc-maps/testimonials.php:136, src/tm-dione/inc/vc-maps/vc_column.php:228, src/tm-dione/inc/vc-maps/vc_row.php:272, src/tm-dione/inc/vc-maps/vc_row.php:421, src/tm-dione/inc/vc-maps/vc_tta_accordion.php:31, src/tm-dione/inc/vc-maps/vc_tta_section.php:24, src/tm-dione/inc/vc-maps/vc_tta_section.php:64
+msgid "Yes"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/carousel.php:51, src/tm-dione/inc/vc-maps/carousel.php:64, src/tm-dione/inc/vc-maps/carousel.php:98, src/tm-dione/inc/vc-maps/carousel.php:125, src/tm-dione/inc/vc-maps/carousel.php:149, src/tm-dione/inc/vc-maps/compare_table.php:59, src/tm-dione/inc/vc-maps/compare_table.php:151, src/tm-dione/inc/vc-maps/icon_with_text.php:31, src/tm-dione/inc/vc-maps/icon_with_text.php:114, src/tm-dione/inc/vc-maps/icon_with_text.php:190, src/tm-dione/inc/vc-maps/icon_with_text.php:210, src/tm-dione/inc/vc-maps/icon_with_text.php:243, src/tm-dione/inc/vc-maps/portfolio_grid.php:155, src/tm-dione/inc/vc-maps/price_box.php:104, src/tm-dione/inc/vc-maps/process_bar.php:28, src/tm-dione/inc/vc-maps/team_member.php:101, src/tm-dione/inc/vc-maps/team_member2.php:85, src/tm-dione/inc/vc-maps/testimonials.php:76, src/tm-dione/inc/vc-maps/testimonials.php:90, src/tm-dione/inc/vc-maps/testimonials.php:105, src/tm-dione/inc/vc-maps/testimonials.php:137, src/tm-dione/inc/vc-maps/vc_column.php:229, src/tm-dione/inc/vc-maps/vc_row.php:273, src/tm-dione/inc/vc-maps/vc_row.php:422, src/tm-dione/inc/vc-maps/vc_tta_accordion.php:32, src/tm-dione/inc/vc-maps/vc_tta_section.php:25, src/tm-dione/inc/vc-maps/vc_tta_section.php:65
+msgid "No"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/carousel.php:57
+msgid "Show Title"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/carousel.php:91
+msgid "Show Description"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/carousel.php:118
+msgid "Show Navigation"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/carousel.php:131
+msgid "Navigation Style"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/carousel.php:135
+msgid "Style 1"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/carousel.php:136
+msgid "Style 2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/carousel.php:142
+msgid "Show Dots"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/compare_table.php:21
+msgid "Pricing Table"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/compare_table.php:45
+msgid "Enable compare"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/compare_table.php:125
+msgid "Captions"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/compare_table.php:137
+msgid "Auto create cell"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/compare_table.php:157
+msgid "Auto create cell with each line"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/compare_table.php:165
+msgid "Custom content height"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/compare_table.php:169
+msgid "unit px"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/compare_table.php:177, src/tm-dione/inc/vc-maps/tm_video.php:59
+msgid "Class"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/compare_table.php:181
+msgid "Custom CSS class"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/compare_table.php:189
+msgid "ID"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/countdown.php:11
+msgid "Label options"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/countdown.php:25
+msgid "Target Time For Countdown"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/countdown.php:28
+msgid "Date and time format (yyyy/mm/dd hh:mm)."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/counter.php:17
+msgid "Your milestones, achievements, etc."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/counter.php:25
+msgid "Counter value"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/counter.php:36
+msgid "Counter title"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:17
+msgid "Album"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:18
+msgid "arc"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:19
+msgid "back-2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:20
+msgid "bandaid"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:21
+msgid "car"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:22
+msgid "diamond"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:23
+msgid "door-lock"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:24
+msgid "eyedropper"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:25
+msgid "female"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:26
+msgid "gym"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:27
+msgid "hammer"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:28
+msgid "headphones"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:29
+msgid "helm"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:30
+msgid "hourglass"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:31
+msgid "leaf"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:32
+msgid "magic wand"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:33
+msgid "male"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:34
+msgid "map 2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:35
+msgid "next 2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:36
+msgid "paint bucket"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:37
+msgid "pendrive"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:38
+msgid "photo"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:39
+msgid "piggy"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:40
+msgid "plugin"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:41
+msgid "refresh 2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:42
+msgid "rocket"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:43
+msgid "settings"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:44
+msgid "shield"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:45
+msgid "smile"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:46
+msgid "usb"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:47
+msgid "vector"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:48
+msgid "wine"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:49
+msgid "cloud upload"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:50
+msgid "cash"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:51
+msgid "close"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:52
+msgid "bluetooth"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:53
+msgid "cloud download"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:54
+msgid "way"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:55
+msgid "close circle"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:56
+msgid "id"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:57
+msgid "angle up"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:58
+msgid "wristwatch"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:59
+msgid "angle-up-circle"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:60
+msgid "world"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:61
+msgid "Angle Right"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:62
+msgid "volume"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:63
+msgid "angle right circle right"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:64
+msgid "Users"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:65
+msgid "angle left"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:66
+msgid "user female"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:67
+msgid "angle left circle"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:68
+msgid "Sound"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:69
+msgid "up arrow"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:70
+msgid "switch"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:71
+msgid "down circle"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:72
+msgid "scissors"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:73
+msgid "wallet"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:74
+msgid "safe"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:75
+msgid "volume2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:76
+msgid "volume1"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:77
+msgid "voice mail"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:78
+msgid "video"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:79
+msgid "user"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:80
+msgid "upload"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:81
+msgid "unlock"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:82
+msgid "umbrella"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:83
+msgid "trash"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:84
+msgid "tools"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:85
+msgid "timer"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:86
+msgid "ticket"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:87
+msgid "target"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:88
+msgid "sun"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:89
+msgid "study"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:90
+msgid "stopwatch"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:91
+msgid "star"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:92
+msgid "speaker"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:93
+msgid "signal"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:94
+msgid "shuffle"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:95
+msgid "shopbag"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:96
+msgid "share"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:97
+msgid "server"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:98
+msgid "search"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:99
+msgid "film"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:100
+msgid "science"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:101
+msgid "disk"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:102
+msgid "ribbon"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:103
+msgid "repeat"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:104
+msgid "refresh"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:105
+msgid "add user"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:106
+msgid "refresh cloud"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:107
+msgid "paperclip"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:108
+msgid "radio"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:109
+msgid "note2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:110
+msgid "print"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:111
+msgid "network"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:112
+msgid "prev"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:113
+msgid "mute"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:114
+msgid "power"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:115
+msgid "medal"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:116
+msgid "portfolio"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:117
+msgid "like2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:118
+msgid "plus"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:119
+msgid "left arrow"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:120
+msgid "play"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:121
+msgid "key"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:122
+msgid "plane"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:123
+msgid "joy"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:124
+msgid "photo gallery"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:125
+msgid "pin"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:126
+msgid "phone"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:127
+msgid "plug"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:128
+msgid "pen"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:129
+msgid "right arrow"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:130
+msgid "paper plane"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:131
+msgid "delete user"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:132
+msgid "paint"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:133
+msgid "bottom arrow"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:134
+msgid "notebook"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:135
+msgid "note"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:136
+msgid "next"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:137
+msgid "news paper"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:138
+msgid "musiclist"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:139
+msgid "music"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:140
+msgid "mouse"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:141
+msgid "more"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:142
+msgid "moon"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:143
+msgid "monitor"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:144
+msgid "micro"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:145
+msgid "menu"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:146
+msgid "map"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:147
+msgid "map marker"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:148
+msgid "mail"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:149
+msgid "mail open"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:150
+msgid "mail open file"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:151
+msgid "magnet"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:152
+msgid "loop"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:153
+msgid "look"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:154
+msgid "lock"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:155
+msgid "lintern"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:156
+msgid "link"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:157
+msgid "like"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:158
+msgid "light"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:159
+msgid "less"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:160
+msgid "keypad"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:161
+msgid "junk"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:162
+msgid "info"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:163
+msgid "home"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:164
+msgid "help2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:165
+msgid "help1"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:166, src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:169
+msgid "graph3"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:167
+msgid "graph2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:168
+msgid "graph1"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:170
+msgid "global"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:171
+msgid "gleam"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:172
+msgid "glasses"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:173
+msgid "gift"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:174
+msgid "folder"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:175
+msgid "flag"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:176
+msgid "filter"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:177
+msgid "file"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:178
+msgid "expand1"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:179
+msgid "expand2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:180
+msgid "edit"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:181
+msgid "drop"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:182
+msgid "drawer"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:183
+msgid "download"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:184
+msgid "display2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:185
+msgid "display1"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:186
+msgid "diskette"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:187
+msgid "date"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:188
+msgid "cup"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:189
+msgid "culture"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:190
+msgid "crop"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:191
+msgid "credit"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:192
+msgid "copy file"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:193
+msgid "config"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:194
+msgid "compass"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:195
+msgid "comment"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:196
+msgid "coffee"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:197
+msgid "cloud"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:198
+msgid "clock"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:199
+msgid "check"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:200
+msgid "chat"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:201
+msgid "cart"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:202
+msgid "Camera"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:203
+msgid "call"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:204
+msgid "calculator"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:205
+msgid "browser"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:206
+msgid "box2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:207
+msgid "box1"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:208
+msgid "bookmarks"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:209
+msgid "bicycle"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:210
+msgid "bell"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:211
+msgid "battery"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:212
+msgid "ball"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:213
+msgid "back"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:214
+msgid "attention"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:215
+msgid "anchor"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:216
+msgid "albums"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:217
+msgid "alarm"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/fonts/pe-7-troke.php:218
+msgid "airplay"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:16
+msgid "Google Maps"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:19
+msgid "Map block"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:24
+msgid "Address or Coordinate"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:28
+msgid "Enter address or coordinate."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:32
+msgid "Marker icon"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:34
+msgid "Choose a image for marker address"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:38
+msgid "Marker Information"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:40
+msgid "Content for info window"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:47
+msgid "Enter map height (in pixels or percentage)"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:51
+msgid "Width"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:54
+msgid "Enter map width (in pixels or percentage)"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:58
+msgid "Zoom level"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:61
+msgid "Map zoom level"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:65
+msgid "Enable Map zoom"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:73
+msgid "Map type"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:76
+msgid "Choose a map type"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:78
+msgid "Roadmap"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:79
+msgid "Satellite"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:80
+msgid "Hybrid"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:81
+msgid "Terrain"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:86
+msgid "Map style"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:89
+msgid "Choose a map style. This approach changes the style of the Roadmap types (base imagery in terrain and satellite views is not affected, but roads, labels, etc. respect styling rules"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:92
+msgid "Grayscale"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:93
+msgid "Subtle Grayscale"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:94
+msgid "Apple Maps-esque"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:95
+msgid "Pale Dawn"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:96
+msgid "Muted Blue"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:97
+msgid "Paper"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:98
+msgid "Light Dream"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:99
+msgid "Retro"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:100
+msgid "Avocado World"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:101
+msgid "Facebook"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:102
+msgid "Shades of Grey"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:103, src/tm-dione/inc/vc-maps/params/gradient.php:35, src/tm-dione/inc/vc-maps/vc_column.php:168, src/tm-dione/inc/vc-maps/vc_row.php:211
+msgid "Custom"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:108
+msgid "Map style snippet"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/google_map.php:119, src/tm-dione/inc/vc-maps/services.php:64
+msgid "If you want to use multiple Google Maps in one page, please add a class name for them."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icon_with_text.php:13
+msgid "Process option"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icon_with_text.php:24, src/tm-dione/inc/vc-maps/process_bar.php:21, src/tm-dione/inc/vc-maps/team_member2.php:78
+msgid "Enable reverse style"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icon_with_text.php:100, src/tm-dione/inc/vc-maps/icons.php:106
+msgid "Custom Class CSS"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icon_with_text.php:107
+msgid "Disable icon"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icon_with_text.php:174, src/tm-dione/inc/vc-maps/icons.php:72
+msgid "Size"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icon_with_text.php:183
+msgid "Enable process style"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icon_with_text.php:197
+msgid "Text Order"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icon_with_text.php:203
+msgid "Show title line"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icon_with_text.php:217
+msgid "Number Color"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icon_with_text.php:223, src/tm-dione/inc/vc-maps/vc_custom_heading.php:6
+msgid "Font Weight"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icon_with_text.php:229
+msgid "Font Size"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icon_with_text.php:236
+msgid "Border enable"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/icons.php:17
+msgid "Add a set of multiple icons and give some custom style."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/latest_blog.php:13
+msgid "Latest Blog"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/latest_blog.php:20
+msgid "Enter numbers of articles"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/latest_blog.php:28
+msgid "No image"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/latest_blog.php:29
+msgid "Grid"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/latest_blog.php:30
+msgid "Masonry"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/latest_blog.php:44
+msgid "Order By"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/latest_blog.php:48, src/tm-dione/template-parts/content-portfolio-1-column.php:23, src/tm-dione/template-parts/content-portfolio-2-columns.php:78
+msgid "Date"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/message.php:13
+msgid "Notification box"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/message.php:50, src/tm-dione/inc/vc-maps/vc_tta_section.php:34
+msgid "Choose library"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/params/gradient.php:33, src/tm-dione/inc/vc-maps/vc_tta_tabs.php:11
+msgid "Vertical"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/params/gradient.php:34
+msgid "Horizontal"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/params/gradient.php:38
+msgid "Choose Colors"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/params/icons.php:17, src/tm-dione/inc/vc-maps/params/icons.php:33, src/tm-dione/inc/vc-maps/params/icons.php:49, src/tm-dione/inc/vc-maps/params/icons.php:80, src/tm-dione/inc/vc-maps/params/icons.php:96
+msgid "Select icon from library."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/params/params.php:38, src/tm-dione/inc/vc-maps/params/params.php:39
+msgid "404 not found"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_carousel.php:26
+msgid "Portfolio Carousel"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_carousel.php:55
+msgid "Slides to show"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_carousel.php:86, src/tm-dione/inc/vc-maps/portfolio_grid.php:193, src/tm-dione/inc/vc-maps/portfolio_list.php:104
+msgid "Number"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_carousel.php:88, src/tm-dione/inc/vc-maps/portfolio_grid.php:195, src/tm-dione/inc/vc-maps/portfolio_list.php:106
+msgid "Number of portolios on page (-1 is all)"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_carousel.php:100, src/tm-dione/inc/vc-maps/portfolio_grid.php:200
+msgid "Item padding"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_carousel.php:102, src/tm-dione/inc/vc-maps/portfolio_grid.php:202
+msgid "px"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_grid.php:26
+msgid "Portfolio Grid"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_grid.php:113
+msgid "View Home"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_grid.php:148
+msgid "Hide Filter"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_list.php:64
+msgid "Height of item"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_list.php:67
+msgid "Example: 800px"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_list.php:71
+msgid "Width of item"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/portfolio_list.php:74
+msgid "Example: 20%"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:9
+msgid "Price Box"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:21
+msgid "Title of this column (plan)"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:25, src/tm-dione/woocommerce/cart/cart.php:36, src/tm-dione/woocommerce/cart/cart.php:91
+msgid "Price"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:27
+msgid "Price of this plan"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:31
+msgid "Features"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:67
+msgid "Column Size"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:71
+msgid "2"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:72
+msgid "12/5"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:73
+msgid "3"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:74
+msgid "4"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:75
+msgid "6"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:77
+msgid "Select between 2, 3, 4, 6. Total column_size values of all columns should equal to 12"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:85
+msgid "Box Style"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/price_box.php:97
+msgid "Enable Special Column"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/process_bar.php:67
+msgid "Percentage"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/services.php:5
+msgid "TM Services"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/services.php:12
+msgid "Services"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/services.php:17
+msgid "Photo"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/services.php:20
+msgid "History photo"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/services.php:27
+msgid "Enter title."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/services.php:35
+msgid "Enter content."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/services.php:40
+msgid "Read more text"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/services.php:47
+msgid "Read more link"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/services.php:56
+msgid "Auto play"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/shop_banner.php:28
+msgid "Image size"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/team_member.php:94
+msgid "Enable show all content"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/testimonials.php:69
+msgid "Enable Author Image"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/testimonials.php:83
+msgid "Show navigation"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/testimonials.php:98
+msgid "Only text"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/testimonials.php:130
+msgid "Enable arrow icon"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/testimonials.php:147
+msgid "Direction"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/testimonials.php:157, src/tm-dione/inc/vc-maps/vc_column.php:106, src/tm-dione/inc/vc-maps/vc_row.php:149
+msgid "Select the kind of background would you like to set for this row."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/thememove-menu.php:17
+msgid "TM Better Menu"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/tm_video.php:7
+msgid "TM Video"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/tm_video.php:17
+msgid "Enter your video url (Youtube/Vimeo) here"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/tm_video.php:48
+msgid "Color of video player"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/tm_video.php:55
+msgid "Color of video player on hover"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/tm_video.php:65
+msgid "CSS"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/tm_woo_products.php:38
+msgid "Recent products"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/tm_woo_products.php:41
+msgid "Show recent products"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:98, src/tm-dione/inc/vc-maps/vc_row.php:141
+msgid "Background Style"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:102, src/tm-dione/inc/vc-maps/vc_row.php:145
+msgid "Single Color"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:103, src/tm-dione/inc/vc-maps/vc_row.php:146
+msgid "Gradient Color"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:104, src/tm-dione/inc/vc-maps/vc_row.php:147
+msgid "Image"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:113, src/tm-dione/inc/vc-maps/vc_row.php:156
+msgid "Background Color"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:123, src/tm-dione/inc/vc-maps/vc_column.php:265, src/tm-dione/inc/vc-maps/vc_row.php:166, src/tm-dione/inc/vc-maps/vc_row.php:458
+msgid "Gradient Type"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:125, src/tm-dione/inc/vc-maps/vc_column.php:267, src/tm-dione/inc/vc-maps/vc_row.php:168, src/tm-dione/inc/vc-maps/vc_row.php:460
+msgid "At least two color points should be selected."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:137, src/tm-dione/inc/vc-maps/vc_row.php:180
+msgid "Upload or select background image from media gallery."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:146, src/tm-dione/inc/vc-maps/vc_row.php:189
+msgid "Background Image Repeat"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:149, src/tm-dione/inc/vc-maps/vc_row.php:192
+msgid "Repeat"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:154, src/tm-dione/inc/vc-maps/vc_column.php:170, src/tm-dione/inc/vc-maps/vc_row.php:197, src/tm-dione/inc/vc-maps/vc_row.php:213
+msgid "Options to control repeatation of the background image."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:154, src/tm-dione/inc/vc-maps/vc_column.php:170, src/tm-dione/inc/vc-maps/vc_row.php:197, src/tm-dione/inc/vc-maps/vc_row.php:213
+msgid "Learn on"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:154, src/tm-dione/inc/vc-maps/vc_column.php:170, src/tm-dione/inc/vc-maps/vc_row.php:197, src/tm-dione/inc/vc-maps/vc_row.php:213
+msgid "W3School"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:162, src/tm-dione/inc/vc-maps/vc_row.php:205
+msgid "Background Image Size"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:165, src/tm-dione/inc/vc-maps/vc_row.php:208
+msgid "Cover - Image to be as large as possible"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:166, src/tm-dione/inc/vc-maps/vc_row.php:209
+msgid "Contain - Image will try to fit inside the container area"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:178, src/tm-dione/inc/vc-maps/vc_row.php:221
+msgid "Custom Background Image Size"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:181, src/tm-dione/inc/vc-maps/vc_row.php:224
+msgid "You can use initial, inherit or any number with px, em, %, etc. Example- 100px 100px"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:189, src/tm-dione/inc/vc-maps/vc_row.php:232
+msgid "Scroll Effect"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:192, src/tm-dione/inc/vc-maps/vc_row.php:235
+msgid "Move with the content"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:193, src/tm-dione/inc/vc-maps/vc_row.php:236
+msgid "Fixed at its position"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:195, src/tm-dione/inc/vc-maps/vc_row.php:238
+msgid "Options to set whether a background image is fixed or scroll with the rest of the page."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:204, src/tm-dione/inc/vc-maps/vc_row.php:247
+msgid "Background Image Posiiton"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:207, src/tm-dione/inc/vc-maps/vc_row.php:250
+msgid "You can use any number with px, em, %, etc. Example- 100px 100px."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:217, src/tm-dione/inc/vc-maps/vc_row.php:260
+msgid "Effect"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:222, src/tm-dione/inc/vc-maps/vc_row.php:415
+msgid "Enable Overlay"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:276, src/tm-dione/inc/vc-maps/vc_row.php:469
+msgid "Pattern Image"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:279, src/tm-dione/inc/vc-maps/vc_row.php:472
+msgid "Upload or select pattern image from media gallery."
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:289, src/tm-dione/inc/vc-maps/vc_row.php:482
+msgid "Opacity"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_column.php:295, src/tm-dione/inc/vc-maps/vc_row.php:488
+msgid "Default 80"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_custom_heading.php:11
+msgid "Text Transform"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_custom_heading.php:15
+msgid "Capitalize"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_custom_heading.php:16
+msgid "Uppercase"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_custom_heading.php:17
+msgid "Lowercase"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_custom_heading.php:19
+msgid "Inherit"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_custom_heading.php:24
+msgid "Letter Spacing"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:267
+msgid "Enable Seperator "
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:290
+msgid "Big Triangle"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:291
+msgid "Big Triangle Left"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:292
+msgid "Big Triangle Right"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:293
+msgid "Half Circle"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:294
+msgid "Curve Center"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:295
+msgid "Curve Left"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:296
+msgid "Curve Right"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:297
+msgid "Tilt Left"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:298
+msgid "Tilt Right"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:299
+msgid "Round Split"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:300
+msgid "Waves"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:301
+msgid "Clouds"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:302
+msgid "Multi Triangle"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:320
+msgid "Top"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:321, src/tm-dione/inc/vc-maps/vc_row.php:368
+msgid "Bottom"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:322
+msgid "Top & Bottom"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:360
+msgid "Default 60"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_row.php:408
+msgid "Mostly, this should be background color of your adjacent row section. (Default - White)"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_tta_section.php:18
+msgid "Use icon"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_tta_tabs.php:8
+msgid ""
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_tta_tabs.php:9
+msgid "Style 01"
+msgstr ""
+
+#: src/tm-dione/inc/vc-maps/vc_tta_tabs.php:10
+msgid "Style 02"
+msgstr ""
+
+#: src/tm-dione/inc/vc-templates/latest_blog.php:45
+msgid "READ MORE"
+msgstr ""
+
+#: src/tm-dione/inc/vc-templates/portfolio_carousel.php:101, src/tm-dione/inc/vc-templates/portfolio_list.php:67
+msgid "project detail"
+msgstr ""
+
+#: src/tm-dione/inc/vc-templates/portfolio_grid.php:177
+msgid "All"
+msgstr ""
+
+#: src/tm-dione/inc/vc-templates/team_member2.php:71
+msgid "The story"
+msgstr ""
+
+#: src/tm-dione/inc/vc-templates/testimonials.php:149
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: src/tm-dione/page.php:159, src/tm-dione/template-parts/content-page.php:20, src/tm-dione/template-parts/content-single.php:26, src/tm-dione/template-parts/content.php:33
+msgid "Pages:"
+msgstr ""
+
+#: src/tm-dione/template-parts/content-blog.php:25, src/tm-dione/template-parts/content-index.php:20
+msgid "Posted by "
+msgstr ""
+
+#: src/tm-dione/template-parts/content-blog.php:27, src/tm-dione/template-parts/content-index.php:22
+msgid "In "
+msgstr ""
+
+#: src/tm-dione/template-parts/content-blog.php:41, src/tm-dione/template-parts/content-index.php:34
+msgid "Continue Reading"
+msgstr ""
+
+#: src/tm-dione/template-parts/content-blog.php:45
+msgid "Share: "
+msgstr ""
+
+#: src/tm-dione/template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: src/tm-dione/template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: src/tm-dione/template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: src/tm-dione/template-parts/content-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: src/tm-dione/template-parts/content-portfolio-1-column.php:14, src/tm-dione/template-parts/content-portfolio-2-columns.php:69
+msgid "About the project"
+msgstr ""
+
+#: src/tm-dione/template-parts/content-portfolio-1-column.php:33, src/tm-dione/template-parts/content-portfolio-2-columns.php:88
+msgid "Category"
+msgstr ""
+
+#: src/tm-dione/template-parts/content-portfolio-1-column.php:40, src/tm-dione/template-parts/content-portfolio-2-columns.php:95, src/tm-dione/template-parts/content-single.php:42
+msgid "Share"
+msgstr ""
+
+#: src/tm-dione/template-parts/content-portfolio-1-column.php:58, src/tm-dione/template-parts/content-portfolio-2-columns.php:113
+msgid "Visit Website"
+msgstr ""
+
+#: src/tm-dione/template-parts/content.php:26
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart-totals.php:26
+msgid "Cart Totals"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart-totals.php:32, src/tm-dione/woocommerce/cart/cart-totals.php:33, src/tm-dione/woocommerce/cart/mini-cart.php:75, src/tm-dione/woocommerce/checkout/review-order.php:57
+msgid "Subtotal"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart-totals.php:54, src/tm-dione/woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart-totals.php:69
+msgid "estimated for %s"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart-totals.php:89, src/tm-dione/woocommerce/cart/cart-totals.php:90, src/tm-dione/woocommerce/cart/cart.php:38, src/tm-dione/woocommerce/cart/cart.php:113, src/tm-dione/woocommerce/checkout/review-order.php:28, src/tm-dione/woocommerce/checkout/review-order.php:104
+msgid "Total"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart.php:35, src/tm-dione/woocommerce/cart/cart.php:75, src/tm-dione/woocommerce/checkout/review-order.php:27
+msgid "Product"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart.php:37, src/tm-dione/woocommerce/cart/cart.php:97
+msgid "Quantity"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart.php:57, src/tm-dione/woocommerce/cart/mini-cart.php:44
+msgid "Remove this item"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart.php:86
+msgid "Available on backorder"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart.php:127
+msgid "Update Cart"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart.php:148
+msgid "Coupon"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart.php:150, src/tm-dione/woocommerce/checkout/form-coupon.php:34
+msgid "Coupon code"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/cart.php:151, src/tm-dione/woocommerce/checkout/form-coupon.php:37
+msgid "Apply Coupon"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/mini-cart.php:67
+msgid "No products in the cart."
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/mini-cart.php:80
+msgid "View Cart"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/mini-cart.php:81
+msgid "Checkout"
+msgstr ""
+
+#: src/tm-dione/woocommerce/cart/proceed-to-checkout-button.php:25
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/form-billing.php:25
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/form-billing.php:29
+msgid "Billing Details"
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/form-billing.php:48
+msgid "Create an account?"
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/form-billing.php:59
+msgid "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/form-checkout.php:24
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/form-checkout.php:53
+msgid "Your order"
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/form-coupon.php:24
+msgid "Have a coupon?"
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/form-coupon.php:24
+msgid "Click here to enter your code"
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/form-login.php:23
+msgid "Returning customer?"
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/form-login.php:24
+msgid "Click here to login"
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/form-login.php:33
+msgid "If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing &amp; Shipping section."
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/payment.php:33
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/payment.php:40
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: src/tm-dione/woocommerce/checkout/payment.php:41
+msgid "Update totals"
+msgstr ""
+
+#: src/tm-dione/woocommerce/global/form-login.php:32
+msgid "Username or email"
+msgstr ""
+
+#: src/tm-dione/woocommerce/global/form-login.php:36
+msgid "Password"
+msgstr ""
+
+#: src/tm-dione/woocommerce/global/form-login.php:46
+msgid "Login"
+msgstr ""
+
+#: src/tm-dione/woocommerce/global/form-login.php:50
+msgid "Remember me"
+msgstr ""
+
+#: src/tm-dione/woocommerce/global/form-login.php:57
+msgid "Lost your password?"
+msgstr ""
+
+#: src/tm-dione/woocommerce/single-product/add-to-cart/variable.php:29
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: src/tm-dione/woocommerce/single-product/add-to-cart/variable.php:39
+msgid "Clear"
+msgstr ""
+
+#: src/tm-dione/woocommerce/single-product/meta.php:30
+msgid "SKU:"
+msgstr ""
+
+#: src/tm-dione/woocommerce/single-product/meta.php:30
+msgid "N/A"
+msgstr ""
+
+#: src/tm-dione/woocommerce/single-product/meta.php:34
+msgid "<h6>Category:</h6>"
+msgid_plural "<h6>Categories:</h6>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/woocommerce/single-product/meta.php:36
+msgid "<h6>Tag:</h6>"
+msgid_plural "<h6>Tags:</h6>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/woocommerce/single-product/rating.php:35
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: src/tm-dione/woocommerce/single-product/rating.php:37
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/tm-dione/woocommerce/single-product/related.php:42
+msgid "Related Products"
+msgstr ""
+
+#: src/tm-dione/woocommerce/single-product/review.php:38
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: src/tm-dione/woocommerce/single-product/review.php:44
+msgid "verified owner"
+msgstr ""
+
+#: src/tm-dione/woocommerce/woo-functions.php:111, src/tm-dione/woocommerce/woo-functions.php:156, src/tm-dione/woocommerce/woo-functions.php:202
+msgid "First name (*)"
+msgstr ""
+
+#: src/tm-dione/woocommerce/woo-functions.php:115, src/tm-dione/woocommerce/woo-functions.php:160, src/tm-dione/woocommerce/woo-functions.php:206
+msgid "Last name (*)"
+msgstr ""
+
+#: src/tm-dione/woocommerce/woo-functions.php:119, src/tm-dione/woocommerce/woo-functions.php:164, src/tm-dione/woocommerce/woo-functions.php:210
+msgid "Company name"
+msgstr ""
+
+#: src/tm-dione/woocommerce/woo-functions.php:123, src/tm-dione/woocommerce/woo-functions.php:214
+msgid "Email (*)"
+msgstr ""
+
+#: src/tm-dione/woocommerce/woo-functions.php:127, src/tm-dione/woocommerce/woo-functions.php:218
+msgid "Phone (*)"
+msgstr ""
+
+#: src/tm-dione/woocommerce/woo-functions.php:134, src/tm-dione/woocommerce/woo-functions.php:171, src/tm-dione/woocommerce/woo-functions.php:225
+msgid "Street address (*)"
+msgstr ""
+
+#: src/tm-dione/woocommerce/woo-functions.php:142, src/tm-dione/woocommerce/woo-functions.php:179, src/tm-dione/woocommerce/woo-functions.php:233
+msgid "State"
+msgstr ""

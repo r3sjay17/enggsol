@@ -1,0 +1,44 @@
+.sidebar {
+    .widget-title {
+        margin: 0;
+        padding: 10px 0 10px 10px;
+        border-left: 3px solid $color-secondary;
+        font-size: 2em;
+    }
+    
+    ul {
+        border:0;
+        
+        li {
+            padding: 0;
+            
+            a {
+                padding:10px 20px;
+                display: block;
+                text-decoration: none;
+                text-transform: capitalize;
+                color: $color-dark;
+                
+                
+                &:hover {
+                    transform: translate(5%,0);
+                    opacity: .4;
+                    color: $color-secondary;
+                }
+                
+            }
+        }
+        
+        
+        > li {
+            > a {
+                &:before {
+                    content: "\f101";
+                    @include fontawesome;
+                    margin-right: 15px;
+                }  
+            }
+        }
+        
+    }
+}

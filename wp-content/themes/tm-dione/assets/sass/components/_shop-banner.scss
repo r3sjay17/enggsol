@@ -1,0 +1,41 @@
+/* SHOP BANNER */
+.shop-banner {
+    overflow: hidden;
+ 	 position: relative;
+    img {
+        @extend %transit;
+    }
+    h3 {
+        @extend %transit;
+    }
+    &:before {
+        background: #fff;
+        content: "";
+        height: 555px;
+        left: -230px;
+        opacity: .2;
+        position: absolute;
+        top: -180px;
+        -webkit-transform: rotate(35deg);
+        transform: rotate(35deg);
+        -webkit-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+        transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+        width: 80px;
+    }
+    &:hover {
+        &:before {
+            left: 120%;
+        }
+        h3 {
+            letter-spacing: 0.16em;
+        }
+    }
+	 .shop-banner_content {
+ 		position: absolute;
+ 		top: 50%;
+ 		transform: translate(0, -50%);
+ 		width: 100%;
+ 		text-align: center;
+ 		padding-left: 50%;
+ 	}
+}

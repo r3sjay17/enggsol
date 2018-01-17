@@ -1,0 +1,132 @@
+/***
+ Instagram
+***/
+.tm-instagram {
+	&-pics {
+		padding-bottom: 0;
+		margin-bottom: 0;
+		&, ul, li {
+			border: none!important;
+		}
+		&.row {
+			margin-left: -1.5rem;
+			margin-right: -1.5rem;
+		}
+
+		.item {
+			position: relative;
+
+			&:hover {
+				.item-info,
+				.overlay {
+					opacity: 1;
+					visibility: visible;
+				}
+
+				.play-button {
+					opacity: 0;
+					visibility: hidden;
+				}
+			}
+
+			.play-button {
+				position: absolute;
+				text-align: center;
+				top: 50%;
+				left: 50%;
+				z-index: 1;
+				height: 40px;
+				width: 40px;
+				line-height: 40px;
+				transform: translate(-50%,-50%);
+				@include transit;
+
+				&:before {
+					@include font-pe7;
+					display: inline-block;
+					content: '\e624';
+					font-size: 40px;
+					color: #fff;
+					border-radius: 100%;
+				}
+			}
+
+			.overlay {
+				content: '';
+				background: rgba(0, 0, 0, 0.5);
+				opacity: 0;
+				visibility: hidden;
+				position: absolute;
+				top:0;
+				left:0;
+				bottom:0;
+				right:0;
+				//.absolute-center;
+				@include transit;
+
+				a {
+					font-size: 0;
+					position: absolute;
+					top:0;
+					left:0;
+					bottom:0;
+					right:0;
+					//.absolute-center;
+				}
+			}
+		}
+
+		.item-info {
+			cursor: pointer;
+			display: block;
+			position: absolute;
+			text-align: center;
+			backface-visibility: hidden;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			font-size: 0;
+			opacity: 0;
+			visibility: hidden;
+			z-index: 1;
+			margin: 0;
+			transform: translate(0,-50%);
+			@include transit;
+
+			> li {
+				font-size: 14px;
+				display: inline-block;
+				vertical-align: top;
+				color: #fff;
+				padding: 0 10px;
+
+				a {
+					color: #fff !important;
+				}
+
+				&:before {
+					font-size: 16px;
+					margin-right: 5px;
+					display: inline-block;
+					vertical-align: middle;
+					@include font-pe7;
+				}
+
+				&.likes:before {
+					content: '\e642';
+				}
+
+				&.comments:before {
+					content: '\e668';
+				}
+			}
+		}
+	}
+
+	&-follow-links {
+		font-size: 14px;
+		text-align: center;
+		margin-top: 25px;
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,132 @@
+.home.blog #sidebar {
+    padding: 0 30px;
+}
+.widget {
+  margin-bottom: $space-medium;
+  &-title {
+    margin-bottom: $space-xsmall;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+}
+
+.sidebar {
+	//padding-top: 30px;
+  ul {
+    border-top: 1px solid #eee;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    li {
+      line-height: 1.6em;
+      padding: 13px 0px 12px;
+      border-bottom: 1px solid #eee;
+    }
+  }
+}
+
+.widget_recent_entries {
+  a {
+    color: $black-color;
+  }
+  .date {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  ul {
+    li {
+      span {
+        clear: both;
+        display: block;
+      }
+    }
+  }
+}
+
+.widget_categories {
+  a {
+    color: #999;
+  }
+}
+
+.widget_search {
+  margin-bottom: 20px;
+  form {
+    position: relative;
+    &:after {
+      content: '\f002';
+      @extend %icon;
+      font-size: 15px;
+      color: #aaa;
+      position: absolute;
+      top: 15px;
+      right: 20px;
+    }
+    label {
+      width: 100%;
+    }
+    input[type=search] {
+      padding: 12px 15px;
+    }
+  }
+}
+
+.widget-newsletter {
+  background: #eee;
+  padding: 40px 15px 25px;
+  text-align: center;
+  input {
+    text-align: center;
+  }
+}
+
+.widget-photostream {
+  .row {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+  [class*="col"] {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  img {
+    margin-bottom: 1rem;
+  }
+}
+
+.widget_tag_cloud {
+  a {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #999;
+    border: 1px solid #eee;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 14px!important;
+    &:hover, &:focus {
+      border-color: #1674D1;
+      color: #1674D1;
+    }
+  }
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('../../images/arrow-down.png') center right no-repeat;
+  display: inline-block;
+  padding: 9px 15px;
+  margin-bottom: 20px;
+  vertical-align: top;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #DDDDDD;
+  color: #999;
+  line-height: 1.6em;
+  border-radius: 0;
+}

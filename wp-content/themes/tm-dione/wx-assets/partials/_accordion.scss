@@ -1,0 +1,140 @@
+//ACCORDION STYLE 1
+
+//normal tab
+$accord-tab-border :transparent;
+$accord-tab-background: transparent;
+$accord-icon-tab-color: $color-primary ;
+$accord-title-background:transparent;
+//active tab
+$accord-active-background: transparent;
+$accord-icon-tab-hover-color:$color-primary;
+$accord-active-title-background:transparent;
+//text tab colors
+
+//heading text
+$accord-color-text: $color-primary;
+$accord-body-color:$color-dark;
+$accord-heading-weight: $medium;
+//inside panel body tags
+$accord-symbol-background: transparent;  
+
+
+//FONTAWESOME
+$accord-font-icons:"\f103";
+
+#accordion {
+    
+    .panel-title {
+        
+        
+//        NORMAL VIEW
+        a.collapsed {
+            background:$accord-title-background;  
+            border: 0 !important;
+            font-weight: $accord-heading-weight;
+            text-decoration: none;
+            font-size: 20px;
+            color: $accord-color-text;
+            
+            &:before {
+                content: "\f103";
+                color:$accord-icon-tab-color;
+                @include fontawesome;
+                left: 20px;
+                border: 2px solid $accord-tab-border;
+                background:$accord-tab-background;
+                padding: 5px 8px;
+                margin-right: 15px;
+              
+            }
+            
+            &:after {
+                display: none;
+            }
+            
+        }
+        
+//        ONCE YOU CLICK THE TAB
+        a {
+            background: $accord-active-title-background;
+            border: 0 !important;
+            font-weight: $accord-heading-weight;
+            text-decoration: none;
+            font-size: 20px;
+            color: $accord-color-text;
+            text-transform: uppercase;
+            
+            &:before {
+                content:$accord-font-icons;
+                @include fontawesome;
+                left: 20px;
+                border: 2px solid $accord-tab-border;
+                padding: 5px 8px;
+                background: $accord-active-background;
+                color: $accord-icon-tab-hover-color;
+                margin-right: 15px;
+              
+            }
+            
+           
+            
+            &:after {
+                display: none;
+            }
+            
+            
+        }
+        
+        
+        
+    }
+    
+    .panel-body {
+            padding: 0 40px 20px 70px;
+            color: $accord-body-color;
+        
+        
+        h1,h2,h3,h4,h5,h6 {
+            padding: 0;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: $accord-color-text;
+            min-height: auto;
+            margin: 10px 0;
+            font-weight: $accord-heading-weight;
+            
+            
+            
+            &::after {
+                display: none;
+            }
+            
+            &::before {
+                width: 15px;
+                height: 15px;
+                background: $accord-symbol-background;
+                content: '';
+                position: inherit !important;
+                left: inherit !important;
+                top: inherit !important;
+                display: inline-block !important;
+                @include border-radius(100%);
+                margin-right: 10px; 
+            }
+        }
+        
+        
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+        
+        p {
+            color: $accord-body-color;
+        }
+        
+    }
+    
+}
+
+

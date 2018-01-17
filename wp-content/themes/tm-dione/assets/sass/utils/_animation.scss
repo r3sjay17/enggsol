@@ -1,0 +1,11 @@
+/* Chrome, Safari, Opera */
+@-webkit-keyframes zoomOut {
+	0%   {transform: scale(.5)}
+    100% {transform: scale(1)}
+}
+
+/* Standard syntax */
+@keyframes zoomOut {
+	0%   {transform: scale(.5)}
+    100% {transform: scale(1)}
+}

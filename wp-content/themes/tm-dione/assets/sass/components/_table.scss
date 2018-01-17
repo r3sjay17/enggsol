@@ -1,0 +1,45 @@
+.table-dn {
+    width: 100%;
+    border: 1px solid #ddd;
+    th, td {
+        padding: 20px;
+    }
+    th {
+        font-weight: 500;
+        color: $black-color;
+    }
+    tr {
+        border-bottom: 1px solid #ddd;
+    }
+    .amount {
+        color: $price-red-color;
+    }
+}
+.table-shopping-cart {
+    .product-remove {
+        cursor: pointer;
+        &:hover {
+            color: $black-color;
+        }
+    }
+    .product-name {
+        text-transform: capitalize;
+        a {
+            color: $black-color;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+    .product-price,
+    .product-total {
+        color: $sale-color;
+        font-weight: 500;
+    }
+    .product-qty {
+        input {
+            width: 80px;
+            text-align: center;
+        }
+    }
+}

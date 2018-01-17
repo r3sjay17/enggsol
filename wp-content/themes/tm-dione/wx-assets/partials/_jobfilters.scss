@@ -1,0 +1,318 @@
+#jobresults-wrapper {
+    
+    
+//job text results
+    .count-results {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-family: $font-third;
+        font-weight: $bold;
+    }
+    
+//    job filters
+    #filter-buttons {
+        outline: 1px solid;
+        background: $color-dark;
+        padding: 0 20px;
+        color: $color-white;
+        
+        
+//        resets
+        ul,li,span,div {
+            margin: 0;
+            padding: 0;
+        }
+        
+        
+        ul {
+            li {
+                display: inline-block;
+                margin-right: 2px;
+                
+                font-size: .9em;
+                font-family: $font-third;
+                text-transform: capitalize;
+                padding: 20px 0px;
+                
+                a {
+                    color: $color-white;
+                   
+                    font-family: $font-third;
+                    text-decoration: none;
+                    
+                    &:hover {
+                        opacity: .3;
+                    }
+                }
+                
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+        
+        
+        &::after {
+            display: block;
+            content: '';
+            clear: both;
+        }
+        
+        
+        .col-md-8.text-right {
+            span {
+                display: inline-block;
+                
+                &:first-child {
+                    border-right: 1px solid $color-white;
+                    padding-right: 10px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    
+    
+    
+//    content jobs 
+    #jobresult-content-wrapper {
+        background: $color-gray2;
+        
+        .col-md-4 {
+            padding: 0;
+        }
+        
+        .job-lists-wrapper {
+            height: 1000px;
+            overflow-y:scroll;
+            background: $color-gray2;
+            
+            .jobs {
+                padding: 15px 20px;
+                border-bottom: 2px solid $color-white;
+                @include transition(.3s);
+                
+                &:hover {
+                    background: $color-secondary;
+                    color: $color-white;
+                    
+                    h1 {
+                        padding-right: 15px;
+                        
+                        &::after {
+                            content: ">";
+                            font-size: 1.5em;
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            margin: auto;
+                            height: 30px;
+                            right: 0;
+                        }
+                    }
+                }
+                
+                ul {
+                    li {
+                        
+                        font-family: $font-third;
+                        font-weight: $bold;
+                        line-height: 24px;
+                        
+                        h1 {
+                            margin: 0;
+                            font-size: 1.250em;
+                            text-transform: uppercase;
+                            margin-bottom: 20px;
+                            position: relative;
+                        }
+                        
+                        i {
+                            width: 15px;
+                            text-align: center;
+                            margin-right: 10px;
+                        }
+                        
+                        .star-rate {
+                            
+                            i {
+                                margin: 0;
+                            }
+                            
+                        }
+                        
+                    }
+                }
+            }
+            
+            
+        }
+        
+        
+        
+        .job-content-page-wrapper {
+
+            h1.job-heading {
+                font-size: 1.250em;
+                text-transform: uppercase;
+                color: $color-secondary;
+                border-bottom: 1px solid $color-secondary;
+                padding-bottom: 15px;
+            }
+            
+            .content-wrapper {
+                
+                h3,h4,h5 {
+                    font-size: 1.2em;
+                    font-family: $font-third;
+                    font-weight: $bold;
+                }
+
+                
+                ul {
+                    padding-left: 25px;
+                    
+                    li {
+                        &::before {
+                            content: '>';
+                            margin-right: 5px;
+                        }
+                    }
+                }
+                
+                p {
+                    a {
+                        
+                    }
+                }
+                
+            }
+            
+            
+            
+            
+            .button-apply-wrapper {
+                margin: 50px 0;
+                
+                a.button-apply {
+                        display: inline-block;
+                        padding: 10px 40px 10px 20px;
+                        background: $color-dark;
+                        clear: both;
+                        color: $color-white;
+                        text-decoration: none;
+
+                        &:hover {
+                            background: $color-secondary;
+                        }
+                }
+                
+                .small-text {
+                    font-size: 0.8em;
+                    font-style: italic;
+                    margin: 10px 0;
+                }
+                
+            }
+            
+            
+            
+            
+            .job-details {
+                        border-top: 1px solid $color-dark;
+                        padding-top: 40px;
+                        margin-top: 40px;
+                        padding-bottom: 40px;
+
+                        ul {
+                            padding: 0;
+
+                            li {
+
+                                strong {
+                                    width: 30%;
+                                    display: inline-block;
+                                }
+
+                                &::before {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        .keywords-job {
+                            font-size: .8em;
+                            font-style: italic;
+                        }
+            }
+            
+            
+            
+            
+            
+            .job-related-wrapper {
+                padding-bottom: 40px;
+                
+                h1.related-heading {
+                    position: relative;
+                    display: block;
+                    width: 96%;
+                    font-size: 1.2em;
+                    margin: 10px auto;
+                    
+                    strong {
+                        display: inline-block;
+                        background: $color-gray2;
+                        padding-right: 10px;
+                        position: relative;
+                        z-index: 1;
+                    }
+                    
+                    &:after {
+                        height: 1px;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        margin: auto;
+                        background: $color-black;
+                        content: '';
+                    }
+                }
+                
+                a {
+                    text-transform: uppercase;
+                    color:$color-dark;
+                    font-weight: $medium;
+                    text-decoration: none;
+                    
+                    &:hover {
+                        opacity: .6;
+                    }
+                }
+                
+                .dates {
+                    font-size: .8em;
+                }
+                
+                
+            }
+            
+        }
+        
+        
+        
+           
+        &::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        
+        
+        
+    }
+
+    
+}  

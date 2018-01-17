@@ -1,0 +1,130 @@
+.btn {
+  //@include transition(all 0.25s $ease-in-out-cubic);
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1)!important;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1)!important;
+  display: inline-block;
+  padding: 11px 30px 10px;
+  border: 1px solid $black-color;
+  border-radius: 3px;
+  //min-width: 150px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $black-color;
+  background: transparent;
+  &:hover {
+    background: $black-color;
+    color: $white-color;
+  }
+}
+
+// Button sizes
+.btn-small {
+  padding: 7px 20px;
+}
+.btn-medium {
+  padding: 11px 30px;
+}
+.btn-large {
+  padding: 15px 40px;
+}
+
+// Button styles
+.btn-border-black {
+  //background: $white-color;
+  border-color: $black-color;
+  &:hover {
+    @extend .btn-bg-primary-color;
+  }
+}
+.btn-border-gray {
+  border-color: #ddd;
+  &:hover {
+    border-color: #111;
+  }
+}
+.btn-bg-primary-color {
+  border-color: $primary-color;
+  background: $primary-color;
+  color: $white-color;
+  &:hover {
+    background: $black-color;
+    color: $white-color;
+	border-color: $black-color;
+  }
+}
+.btn-bg-secondary-color {
+  border-color: $secondary-color;
+  background: $secondary-color;
+  color: $white-color;
+  &:hover {
+	  background: $black-color;
+      color: $white-color;
+	  border-color: $black-color;
+  }
+}
+.btn-bg-black-color {
+  border-color: $black-color;
+  background: $black-color;
+  color: $white-color;
+  &:hover {
+    background: transparent;
+    color: $black-color;
+  }
+}
+
+.btn-bg-white-color {
+  border-color: $white-color;
+  background: $white-color;
+  color: $black-color;
+  &:hover {
+    background: transparent;
+    color: $white-color;
+  }
+}
+
+.btn-border-white {
+  border-color: #fff;
+  color: #fff;
+  &:hover {
+		background: $white-color;
+		color: $black-color;
+		border-color: $white-color;
+  }
+}
+
+// Link text
+.text-link {
+  color: $primary-color;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+  //padding-bottom: 5px;
+
+  &-icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+  }
+  &:after {
+	  @include transit;
+	  content: '';
+	  height: 1px;
+	  width: 0;
+	  background-color: $secondary-color;
+	  position: absolute;
+	  z-index: 1;
+	  bottom: 0;
+	  left: -1px;
+  }
+  &:hover {
+	  color: $secondary-color;
+	  &:after {
+		  width: 100%;
+	  }
+  }
+}

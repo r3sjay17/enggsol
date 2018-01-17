@@ -1,0 +1,44 @@
+// CHARTS
+.progress-item {
+  margin-bottom: 50px;
+  .progress {
+    height: 4px;
+    background: transparent;
+    box-shadow: none;
+    overflow: inherit;
+  }
+
+  .progress-label {
+    margin-bottom: 12px;
+  }
+
+  .progress-bar {
+    position: relative;
+    height: 100%;
+	width: 5%;
+	//@include transition(all 1s $ease-in-out-cubic);
+  }
+
+  .progress_units {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    color: $gray-color;
+  }
+
+  &.reverse {
+    .progress-label {
+      text-align: right;
+    }
+    .progress_units {
+      left: 0;
+    }
+    .progress-bar {
+      float: right;
+    }
+  }
+}
+
+.progress-bar {
+  background: $black-color;
+}

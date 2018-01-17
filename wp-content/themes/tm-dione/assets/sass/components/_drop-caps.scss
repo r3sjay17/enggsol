@@ -1,0 +1,33 @@
+.drop-caps {
+  &:first-letter, &.style-01:first-letter {
+    font-size: 32px;
+    color: #222;
+    padding: 18px 21px 16px;
+    display: block;
+    float: left;
+    margin: -20px 20px 0 0;
+  }
+  &.style-01:first-letter {
+    border: 1px solid #DDD;
+  }
+  &.style-02:first-letter {
+    color: #fff;
+    background-color: #0076A3;
+  }
+  &.style-03:first-letter {
+    color: #fff;
+    background-color: #00AEEF;
+  }
+  &.style-04:first-letter {
+    color: #222;
+    font-size: 48px;
+    padding: 10px 10px 10px 0px;
+    margin: 0px 20px 0 0;
+  }
+  &.style-05:first-letter {
+    color: #00AEEF;
+    font-size: 48px;
+    padding: 10px 10px 10px 0px;
+    margin: 0px 20px 0 0;
+  }
+}

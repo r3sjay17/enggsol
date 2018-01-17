@@ -1,0 +1,33 @@
+// Blockquotes
+.block-quote_style1 {
+  color:        $gray-color;
+  border-left:  2px solid $primary-color;
+  padding:      5px 15px;
+  font-size:    14px;
+}
+.block-quote_style2 {
+  color:        $black-color;
+  border-color: transparent;
+  padding:      5px 15px 5px 90px;
+  font-size:    14px;
+  font-style: normal;
+  position: relative;
+  &:before {
+    content: '';
+    display: block;
+    background: #ddd;
+    height: 1px;
+    width: 80px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+  }
+}
+.block-quote_style3 {
+  color:        $gray-color;
+  background:   $light-gray-color;
+  border-left:  2px solid #111;
+  padding:      15px 25px;
+  font-size:    14px;
+}

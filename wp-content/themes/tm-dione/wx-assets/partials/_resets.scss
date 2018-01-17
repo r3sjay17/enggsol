@@ -1,0 +1,82 @@
+
+body {
+    font-family: $font-primary;
+    font-size: 15px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+div,
+ul li,
+a {
+    font-family: $font-primary;
+}
+
+
+h1.vc_custom_heading,
+h2.vc_custom_heading,
+h3.vc_custom_heading,
+h4.vc_custom_heading,
+h5.vc_custom_heading
+{
+    font-family: $font-secondary;
+}
+
+
+
+p {
+    font-family: $font-third; 
+    color: $color-dark;
+}
+
+.page-template-template-aboutus-subpages {
+    
+    
+    .wpb_wrapper {
+
+        h2,h3,h4,h5 {
+            font-size: 1.5em;
+            text-transform: uppercase;
+            margin: 15px 0;
+        }
+
+
+        ul {
+
+                li {
+                    position: relative;
+                    line-height: 24px;
+                    font-size: 1em;
+                    font-family: $font-third;
+
+                    &:before {
+                        content: "\f101";
+                        position: absolute;
+                        left: -15px;
+                        top: 3px;
+                        @include fontawesome;
+                    }
+                }
+        }
+
+        h2 {
+            i {
+                font-size: 1.7em;
+                margin-right: 10px;
+            }
+        }
+
+
+    }
+    
+}

@@ -1,0 +1,96 @@
+// Accordion
+.accordion {
+  .panel {
+    box-shadow: none;
+  }
+  .panel-title {
+    a {
+      display: block;
+      color: $white-color;
+      background: $secondary-color;
+      border: 1px solid $secondary-color;
+      font-size: 14px;
+      padding: 20px 50px 20px 20px;
+      line-height: 1;
+      position: relative;
+      &:after {
+        @include font-pe7;
+        @include transit;
+      }
+      &:after, .accordion-icon {
+        font-size: 24px;
+        position: absolute;
+        top: calc(50% - 12px);
+      }
+      .accordion-icon {
+        left: 20px;
+      }
+        //&:before {
+      //  content: '\e66d';
+      //  left: 20px;
+      //}
+      &:after {
+        content: '\e684';
+        right: 20px;
+        @include rotate(90deg);
+      }
+      &.with_icon {
+        padding-left: 50px;
+      }
+    }
+    .collapsed {
+      color: $black-color;
+      background: $light-gray-color;
+      border-color: #eee;
+      .accordion-icon {
+        color: $primary-color;
+      }
+      &:after {
+        @include rotate(0deg);
+        color: #999;
+      }
+    }
+  }
+
+  .panel-body {
+    padding: 35px 20px;
+    color: $gray-color;
+    .wpb_content_element {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity .15s linear;
+
+  &.in {
+    opacity: 1;
+  }
+}
+
+.collapse {
+  display: none;
+
+  &.in {
+    display: block;
+  }
+  // tr&.in    { display: table-row; }
+  // tbody&.in { display: table-row-group; }
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition-timing-function: ease;
+  transition-duration: .35s;
+  transition-property: height;
+}
+
+.panel-group .panel+.panel {
+  margin-top: 5px;
+}
+
+

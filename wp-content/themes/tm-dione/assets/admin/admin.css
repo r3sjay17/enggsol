@@ -1,0 +1,227 @@
+.vc_element-icon.tm-shortcode-ico {
+    background: none;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: 0!important;
+}
+.tm-shortcode-ico.accordion-icon {
+    background-image: url('../images/shortcode-icons/accordion.png');
+}
+.tm-shortcode-ico.blog-icon {
+    background-image: url('../images/shortcode-icons/blog.png');
+}
+.tm-shortcode-ico.button-icon {
+    background-image: url('../images/shortcode-icons/button.png');
+}
+.tm-shortcode-ico.call-to-action-icon {
+    background-image: url('../images/shortcode-icons/call-to-action.png');
+}
+.tm-shortcode-ico.carousel-icon {
+    background-image: url('../images/shortcode-icons/carousel.png');
+}
+.tm-shortcode-ico.clients-icon {
+    background-image: url('../images/shortcode-icons/clients.png');
+}
+.tm-shortcode-ico.columns-icon {
+    background-image: url('../images/shortcode-icons/columns.png');
+}
+.tm-shortcode-ico.countdownclock-icon {
+    background-image: url('../images/shortcode-icons/countdownclock.png');
+}
+.tm-shortcode-ico.counter-icon {
+    background-image: url('../images/shortcode-icons/counter.png');
+}
+.tm-shortcode-ico.divider-icon {
+    background-image: url('../images/shortcode-icons/divider.png');
+}
+.tm-shortcode-ico.dropcap-icon {
+    background-image: url('../images/shortcode-icons/dropcap.png');
+}
+.tm-shortcode-ico.form-icon {
+    background-image: url('../images/shortcode-icons/form.png');
+}
+.tm-shortcode-ico.gallery-icon {
+    background-image: url('../images/shortcode-icons/gallery.png');
+}
+.tm-shortcode-ico.iconbox-icon {
+    background-image: url('../images/shortcode-icons/iconbox.png');
+}
+.tm-shortcode-ico.list-icon {
+    background-image: url('../images/shortcode-icons/list.png');
+}
+.tm-shortcode-ico.member-icon {
+    background-image: url('../images/shortcode-icons/member.png');
+}
+.tm-shortcode-ico.message-icon {
+    background-image: url('../images/shortcode-icons/message.png');
+}
+.tm-shortcode-ico.pricing-icon {
+    background-image: url('../images/shortcode-icons/pricing.png');
+}
+.tm-shortcode-ico.processbar-icon {
+    background-image: url('../images/shortcode-icons/processbar.png');
+}
+.tm-shortcode-ico.tabs-icon {
+    background-image: url('../images/shortcode-icons/tabs.png');
+}
+.tm-shortcode-ico.testimonials-icon {
+    background-image: url('../images/shortcode-icons/testimonials.png');
+}
+.tm-shortcode-ico.textblock-icon {
+    background-image: url('../images/shortcode-icons/textblock.png');
+}
+.tm-shortcode-ico.toggles-icon {
+    background-image: url('../images/shortcode-icons/toggles.png');
+}
+.tm-shortcode-ico.typography-icon {
+    background-image: url('../images/shortcode-icons/typography.png');
+}
+.tm-shortcode-ico.icons-icon {
+    background-image: url('../images/shortcode-icons/icons.png');
+}
+.tm-shortcode-ico.map-icon {
+    background-image: url('../images/shortcode-icons/map.png');
+}
+.tm-shortcode-ico.line-icon {
+    background-image: url('../images/shortcode-icons/line.png');
+}
+.tm-shortcode-ico.svg-icon {
+    background-image: url('../images/shortcode-icons/svg.png');
+}
+.tm-shortcode-ico.video-icon {
+    background-image: url('../images/shortcode-icons/video.png');
+}
+.tm-shortcode-ico.singleimage-icon {
+    background-image: url('../images/shortcode-icons/singleimage.png');
+}
+.tm-shortcode-ico.shopbanner-icon {
+    background-image: url('../images/shortcode-icons/shopbanner.png');
+}
+.tm-shortcode-ico.services-icon {
+    background-image: url('../images/shortcode-icons/services.png');
+}
+.tm-shortcode-ico.product-icon {
+    background-image: url('../images/shortcode-icons/product.png');
+}
+.tm-shortcode-ico.portfoliogrid-icon {
+    background-image: url('../images/shortcode-icons/portfoliogrid.png');
+}
+
+/* Switch */
+
+.onoffswitch {
+    -webkit-user-select: none;
+    -moz-user-select: none
+}
+.onoffswitch {
+    position: relative;
+    width: 95px;
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+    -ms-user-select: none
+}
+.onoffswitch-checkbox {
+    position: absolute;
+    outline: 0;
+    top: 2px;
+    left: 0
+}
+.onoffswitch-checkbox:focus {
+    outline: 0
+}
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0 solid #999;
+    border-radius: 4px;
+}
+.onoffswitch-inner {
+    width: 200%;
+    margin-left: -100%;
+    -moz-transition: margin .3s ease-in 0s;
+    -webkit-transition: margin .3s ease-in 0s;
+    -o-transition: margin .3s ease-in 0s;
+    transition: margin .3s ease-in 0s
+}
+.onoffswitch-inner>div {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 24px;
+    padding: 0;
+    line-height: 24px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    box-sizing: border-box
+}
+.chosen-container *, .onoffswitch-inner>div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+.ult-expand, .ultbs-icon {
+    min-width: 16px;
+    line-height: 20px
+}
+.onoffswitch-inner .onoffswitch-active {
+    padding-left: 15px;
+    background-color: #CCC;
+    color: #FFF
+}
+.onoffswitch-inner .onoffswitch-inactive {
+    padding-right: 15px;
+    background-color: #CCC;
+    color: #FFF;
+    text-align: right
+}
+.onoffswitch-switch {
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    border: 0 solid #999;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0
+}
+.onoffswitch-active .onoffswitch-switch {
+    background: #00AEEF;
+    left: 0
+}
+.onoffswitch-inactive .onoffswitch-switch {
+    background: #7D7D7D;
+    right: 0
+}
+
+/*.onoffswitch-active .onoffswitch-switch:before {
+   content: " ";
+   position: absolute;
+   top: 0;
+   left: 35px;
+   border-style: solid;
+   border-color: #00AEEF transparent transparent #00AEEF;
+   border-width: 15px
+ }
+ .onoffswitch-inactive .onoffswitch-switch:before {
+   content: " ";
+   position: absolute;
+   top: 0;
+   right: 35px;
+   border-style: solid;
+   border-color: transparent #7D7D7D #7D7D7D transparent;
+   border-width: 50px
+ }*/
+
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
+    margin-left: 0
+}
+.grad_trgt {
+    width: 100%!important;
+}
+
+
+.vc_license-activation-notice {
+	display: none!important;
+}

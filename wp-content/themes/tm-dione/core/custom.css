@@ -1,0 +1,100 @@
+li.customize-control {
+	position: relative;
+}
+
+li.customize-control hr {
+	margin: 0 -20px 0;
+}
+
+.group_title {
+	font-size: 20px;
+    font-weight: 200;
+    line-height: 26px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	padding: 10px 10px 12px 14px;
+	margin: 0 -12px;
+	color: #555;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+#customize-controls .control-section .customize-section-title {
+	/*background-color: #dcdcdc; */
+	background-color: #fff;
+	color: #111;
+	border-bottom: 1px solid #ddd;
+	border-top   : 1px solid #ddd;
+}
+
+#customize-controls{
+	background: none;
+}
+#customize-controls .accordion-section-title .dashicons {
+	color: #a0a5aa;
+	height: 16px;
+	font-size: 16px;
+	line-height: 1.3em;
+}
+#customize-controls .accordion-section-title:after {
+	font-size: 14px;
+	line-height: 1.5em;
+}
+#customize-controls .accordion-section-title:hover .dashicons,
+#customize-controls .accordion-section-title:hover:before {
+	color: #23282d!important;
+}
+
+.customize-control-repeater .repeater-fields .repeater-row{
+	background: none !important;
+}
+#customize-controls #customize-theme-controls .accordion-section > .accordion-section-title >span + span,
+#customize-controls .control-section .customize-section-title h3 > .dashicons{
+	display : none;
+}
+#accordion-panel-nav_menus .accordion-section-title:before,
+#accordion-section-title_tagline .accordion-section-title:before,
+#accordion-panel-widgets .accordion-section-title:before,
+#accordion-section-static_front_page .accordion-section-title:before {
+	display: inline-block;
+	width: 20px;
+	height: 16px;
+	font-size: 16px;
+	line-height: 1.3em;
+	font-family: dashicons;
+	text-decoration: inherit;
+	font-weight: 400;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+	-webkit-transition: color .1s ease-in 0;
+	transition: color .1s ease-in 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #a0a5aa;
+}
+
+#accordion-panel-nav_menus .accordion-section-title:before{
+	content : "\f206";
+}
+#accordion-panel-widgets .accordion-section-title:before{
+	content : "\f479";
+}
+#accordion-section-title_tagline .accordion-section-title:before {
+ 	content: "\f311";
+}
+#accordion-section-static_front_page .accordion-section-title:before {
+	content: "\f105";
+}
+
+.customize-control div.image label {
+	width: 33.33%;
+	float: left;
+	padding: 8px;
+	box-sizing: border-box;
+}
+.description a:hover {
+	cursor: pointer;
+}

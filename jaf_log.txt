@@ -1,0 +1,574 @@
+14-06-14 08:8:37  https://recruit.zoho.com/recruit/private/json/Candidates/addRecords?authtoken=50f06fc7b907ff4716aeb3cd34d9459e&scope=recruitapi&version=2&xmlData=<Candidates>
+                        <row no="1">
+                            <FL val="SMOWNERID">336198000000118334</FL>
+                            <FL val="Candidate Owner">Han Eng</FL>
+                            <FL val="Source">Enggsol</FL>
+                            <FL val="Current employer">ST Electronics (Training &amp; Simulation Systems)</FL>
+                            <FL val="First Name">test</FL>
+                            <FL val="Last Name">test</FL>
+                            <FL val="Email">test@email.com</FL>
+                            <FL val="Phone">1</FL>
+                            <FL val="Candidate Status"></FL>
+                            <FL val="Is Hot Candidate">false</FL>
+                            <FL val="Salutation">test</FL>
+                            <FL val="Street">test</FL>
+                            <FL val="City">test</FL>
+                            <FL val="State">test</FL>
+                            <FL val="Zip Code">test</FL>
+                            <FL val="Country">test</FL>
+                        </row>
+                    </Candidates>
+
+14-06-14 08:8:37  Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [server] => ZGS
+                    [date] => Wed, 14 Jun 2017 08:36:25 GMT
+                    [content-type] => application/jsonp;charset=utf-8
+                    [content-length] => 371
+                    [set-cookie] => Array
+                        (
+                            [0] => c3a52dd11e=d6bb413e88ef73f6fb7a9a71e2953a30; Path=/
+                            [1] => crmcsr=002d3b21-d3e6-42a4-8582-29c5298b390f; Path=/; Secure
+                        )
+
+                    [x-content-type-options] => nosniff
+                    [x-xss-protection] => 1
+                    [pragma] => no-cache
+                    [cache-control] => no-store, no-cache, must-revalidate
+                    [expires] => Thu, 01 Jan 1970 00:00:00 GMT
+                    [x-frame-options] => DENY
+                    [x-download-options] => noopen
+                    [strict-transport-security] => max-age=15768000
+                )
+
+        )
+
+    [body] => {"response":{"result":{"recorddetail":{"FL":[{"val":"Id","content":"336198000003545184"},{"val":"Created Time","content":"2017-06-14 15:53:21"},{"val":"Modified Time","content":"2017-06-14 15:53:21"},{"val":"Created By","content":"Daud"},{"val":"Modified By","content":"Daud"}]},"message":"Record(s) already exists"},"uri":"/recruit/private/json/Candidates/addRecords"}}
+
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c3a52dd11e
+                    [value] => d6bb413e88ef73f6fb7a9a71e2953a30
+                    [expires] => 
+                    [path] => /
+                    [domain] => recruit.zoho.com
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => crmcsr
+                    [value] => 002d3b21-d3e6-42a4-8582-29c5298b390f
+                    [expires] => 
+                    [path] => /
+                    [domain] => recruit.zoho.com
+                )
+
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"response":{"result":{"recorddetail":{"FL":[{"val":"Id","content":"336198000003545184"},{"val":"Created Time","content":"2017-06-14 15:53:21"},{"val":"Modified Time","content":"2017-06-14 15:53:21"},{"val":"Created By","content":"Daud"},{"val":"Modified By","content":"Daud"}]},"message":"Record(s) already exists"},"uri":"/recruit/private/json/Candidates/addRecords"}}
+
+                    [raw] => HTTP/1.1 200 OK
+Server: ZGS
+Date: Wed, 14 Jun 2017 08:36:25 GMT
+Content-Type: application/jsonp;charset=utf-8
+Content-Length: 371
+Connection: close
+Set-Cookie: c3a52dd11e=d6bb413e88ef73f6fb7a9a71e2953a30; Path=/
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1
+Set-Cookie: crmcsr=002d3b21-d3e6-42a4-8582-29c5298b390f; Path=/; Secure
+Pragma: no-cache
+Cache-Control: no-store, no-cache, must-revalidate
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-Frame-Options: DENY
+X-Download-Options: noopen
+Strict-Transport-Security: max-age=15768000
+
+{"response":{"result":{"recorddetail":{"FL":[{"val":"Id","content":"336198000003545184"},{"val":"Created Time","content":"2017-06-14 15:53:21"},{"val":"Modified Time","content":"2017-06-14 15:53:21"},{"val":"Created By","content":"Daud"},{"val":"Modified By","content":"Daud"}]},"message":"Record(s) already exists"},"uri":"/recruit/private/json/Candidates/addRecords"}}
+
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => Array
+                                        (
+                                            [0] => ZGS
+                                        )
+
+                                    [date] => Array
+                                        (
+                                            [0] => Wed, 14 Jun 2017 08:36:25 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/jsonp;charset=utf-8
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 371
+                                        )
+
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => c3a52dd11e=d6bb413e88ef73f6fb7a9a71e2953a30; Path=/
+                                            [1] => crmcsr=002d3b21-d3e6-42a4-8582-29c5298b390f; Path=/; Secure
+                                        )
+
+                                    [x-content-type-options] => Array
+                                        (
+                                            [0] => nosniff
+                                        )
+
+                                    [x-xss-protection] => Array
+                                        (
+                                            [0] => 1
+                                        )
+
+                                    [pragma] => Array
+                                        (
+                                            [0] => no-cache
+                                        )
+
+                                    [cache-control] => Array
+                                        (
+                                            [0] => no-store, no-cache, must-revalidate
+                                        )
+
+                                    [expires] => Array
+                                        (
+                                            [0] => Thu, 01 Jan 1970 00:00:00 GMT
+                                        )
+
+                                    [x-frame-options] => Array
+                                        (
+                                            [0] => DENY
+                                        )
+
+                                    [x-download-options] => Array
+                                        (
+                                            [0] => noopen
+                                        )
+
+                                    [strict-transport-security] => Array
+                                        (
+                                            [0] => max-age=15768000
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 200
+                    [protocol_version] => 1.1
+                    [success] => 1
+                    [redirects] => 0
+                    [url] => Requests_IRI Object
+                        (
+                            [scheme:protected] => https
+                            [iuserinfo:protected] => 
+                            [ihost:protected] => recruit.zoho.com
+                            [port:protected] => 
+                            [ipath:protected] => /recruit/private/json/Candidates/addRecords
+                            [iquery:protected] => 
+                            [ifragment:protected] => 
+                            [normalization:protected] => Array
+                                (
+                                    [acap] => Array
+                                        (
+                                            [port] => 674
+                                        )
+
+                                    [dict] => Array
+                                        (
+                                            [port] => 2628
+                                        )
+
+                                    [file] => Array
+                                        (
+                                            [ihost] => localhost
+                                        )
+
+                                    [http] => Array
+                                        (
+                                            [port] => 80
+                                        )
+
+                                    [https] => Array
+                                        (
+                                            [port] => 443
+                                        )
+
+                                )
+
+                        )
+
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                    [c3a52dd11e] => Requests_Cookie Object
+                                        (
+                                            [name] => c3a52dd11e
+                                            [value] => d6bb413e88ef73f6fb7a9a71e2953a30
+                                            [attributes] => Requests_Utility_CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [path] => /
+                                                            [domain] => recruit.zoho.com
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1497429432
+                                                    [last-access] => 1497429432
+                                                    [persistent] => 
+                                                    [host-only] => 1
+                                                )
+
+                                            [reference_time] => 1497429432
+                                        )
+
+                                    [crmcsr] => Requests_Cookie Object
+                                        (
+                                            [name] => crmcsr
+                                            [value] => 002d3b21-d3e6-42a4-8582-29c5298b390f
+                                            [attributes] => Requests_Utility_CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [path] => /
+                                                            [secure] => 1
+                                                            [domain] => recruit.zoho.com
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1497429432
+                                                    [last-access] => 1497429432
+                                                    [persistent] => 
+                                                    [host-only] => 1
+                                                )
+
+                                            [reference_time] => 1497429432
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+
+14-06-14 08:8:37  Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [server] => ZGS
+                    [date] => Wed, 14 Jun 2017 08:36:25 GMT
+                    [content-type] => application/jsonp;charset=utf-8
+                    [content-length] => 262
+                    [set-cookie] => Array
+                        (
+                            [0] => c3a52dd11e=0cbb8fa2650f66872db335e8b786efe8; Path=/
+                            [1] => crmcsr=76d461b7-1c1d-4dc5-b40d-4a5ba2f8df8f; Path=/; Secure
+                        )
+
+                    [x-content-type-options] => nosniff
+                    [x-xss-protection] => 1
+                    [pragma] => no-cache
+                    [cache-control] => no-store, no-cache, must-revalidate
+                    [expires] => Thu, 01 Jan 1970 00:00:00 GMT
+                    [x-frame-options] => DENY
+                    [x-download-options] => noopen
+                    [strict-transport-security] => max-age=15768000
+                )
+
+        )
+
+    [body] => {"response":{"result":{"recorddetail":{"FL":[{"val":"jobIds","content":"336198000003545162"},{"val":"candidateIds","content":"336198000003545184"}]},"message":"Candidate(s) associated successfully"},"uri":"/recruit/private/json/Candidates/associateJobOpening"}}
+
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c3a52dd11e
+                    [value] => 0cbb8fa2650f66872db335e8b786efe8
+                    [expires] => 
+                    [path] => /
+                    [domain] => recruit.zoho.com
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => crmcsr
+                    [value] => 76d461b7-1c1d-4dc5-b40d-4a5ba2f8df8f
+                    [expires] => 
+                    [path] => /
+                    [domain] => recruit.zoho.com
+                )
+
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => {"response":{"result":{"recorddetail":{"FL":[{"val":"jobIds","content":"336198000003545162"},{"val":"candidateIds","content":"336198000003545184"}]},"message":"Candidate(s) associated successfully"},"uri":"/recruit/private/json/Candidates/associateJobOpening"}}
+
+                    [raw] => HTTP/1.1 200 OK
+Server: ZGS
+Date: Wed, 14 Jun 2017 08:36:25 GMT
+Content-Type: application/jsonp;charset=utf-8
+Content-Length: 262
+Connection: close
+Set-Cookie: c3a52dd11e=0cbb8fa2650f66872db335e8b786efe8; Path=/
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1
+Set-Cookie: crmcsr=76d461b7-1c1d-4dc5-b40d-4a5ba2f8df8f; Path=/; Secure
+Pragma: no-cache
+Cache-Control: no-store, no-cache, must-revalidate
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-Frame-Options: DENY
+X-Download-Options: noopen
+Strict-Transport-Security: max-age=15768000
+
+{"response":{"result":{"recorddetail":{"FL":[{"val":"jobIds","content":"336198000003545162"},{"val":"candidateIds","content":"336198000003545184"}]},"message":"Candidate(s) associated successfully"},"uri":"/recruit/private/json/Candidates/associateJobOpening"}}
+
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => Array
+                                        (
+                                            [0] => ZGS
+                                        )
+
+                                    [date] => Array
+                                        (
+                                            [0] => Wed, 14 Jun 2017 08:36:25 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/jsonp;charset=utf-8
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 262
+                                        )
+
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => c3a52dd11e=0cbb8fa2650f66872db335e8b786efe8; Path=/
+                                            [1] => crmcsr=76d461b7-1c1d-4dc5-b40d-4a5ba2f8df8f; Path=/; Secure
+                                        )
+
+                                    [x-content-type-options] => Array
+                                        (
+                                            [0] => nosniff
+                                        )
+
+                                    [x-xss-protection] => Array
+                                        (
+                                            [0] => 1
+                                        )
+
+                                    [pragma] => Array
+                                        (
+                                            [0] => no-cache
+                                        )
+
+                                    [cache-control] => Array
+                                        (
+                                            [0] => no-store, no-cache, must-revalidate
+                                        )
+
+                                    [expires] => Array
+                                        (
+                                            [0] => Thu, 01 Jan 1970 00:00:00 GMT
+                                        )
+
+                                    [x-frame-options] => Array
+                                        (
+                                            [0] => DENY
+                                        )
+
+                                    [x-download-options] => Array
+                                        (
+                                            [0] => noopen
+                                        )
+
+                                    [strict-transport-security] => Array
+                                        (
+                                            [0] => max-age=15768000
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 200
+                    [protocol_version] => 1.1
+                    [success] => 1
+                    [redirects] => 0
+                    [url] => Requests_IRI Object
+                        (
+                            [scheme:protected] => https
+                            [iuserinfo:protected] => 
+                            [ihost:protected] => recruit.zoho.com
+                            [port:protected] => 
+                            [ipath:protected] => /recruit/private/json/Candidates/associateJobOpening
+                            [iquery:protected] => 
+                            [ifragment:protected] => 
+                            [normalization:protected] => Array
+                                (
+                                    [acap] => Array
+                                        (
+                                            [port] => 674
+                                        )
+
+                                    [dict] => Array
+                                        (
+                                            [port] => 2628
+                                        )
+
+                                    [file] => Array
+                                        (
+                                            [ihost] => localhost
+                                        )
+
+                                    [http] => Array
+                                        (
+                                            [port] => 80
+                                        )
+
+                                    [https] => Array
+                                        (
+                                            [port] => 443
+                                        )
+
+                                )
+
+                        )
+
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                    [c3a52dd11e] => Requests_Cookie Object
+                                        (
+                                            [name] => c3a52dd11e
+                                            [value] => 0cbb8fa2650f66872db335e8b786efe8
+                                            [attributes] => Requests_Utility_CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [path] => /
+                                                            [domain] => recruit.zoho.com
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1497429433
+                                                    [last-access] => 1497429433
+                                                    [persistent] => 
+                                                    [host-only] => 1
+                                                )
+
+                                            [reference_time] => 1497429433
+                                        )
+
+                                    [crmcsr] => Requests_Cookie Object
+                                        (
+                                            [name] => crmcsr
+                                            [value] => 76d461b7-1c1d-4dc5-b40d-4a5ba2f8df8f
+                                            [attributes] => Requests_Utility_CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [path] => /
+                                                            [secure] => 1
+                                                            [domain] => recruit.zoho.com
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1497429433
+                                                    [last-access] => 1497429433
+                                                    [persistent] => 
+                                                    [host-only] => 1
+                                                )
+
+                                            [reference_time] => 1497429433
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+
+

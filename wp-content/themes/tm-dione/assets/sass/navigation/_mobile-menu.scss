@@ -1,0 +1,137 @@
+#menu-bar {
+	display: flex;
+	rect {
+		fill: #111;
+	}
+}
+.mobile-menu-btn {
+	//margin-left: 30px;
+	margin-top: 2px;
+	display: flex;
+	align-items: center;
+	height: 24px;
+	width: 24px;
+	//background: url('../../images/menu-bar.png') no-repeat center center;
+	&:hover {
+		opacity: 0.8;
+		cursor: pointer;
+	}
+}
+.mobile-menu {
+	.admin-bar & {
+		padding-top: 32px;
+		@media screen and (max-width: 782px) {
+			padding-top: 46px;
+		}
+	}
+	.mega-menu-content {
+		.vc_row, .vc_column-inner, .wpb_column  {
+			width: 100%!important;
+			padding: 0!important;
+			margin: 0!important;
+			@media (max-width: 63.9em) {
+				.tm-dione & {
+					padding: 0!important;
+				}
+			}
+		}
+	}
+	> ul {
+		padding: 0;
+		li {
+			display: block;
+			border-bottom: 1px solid #eee;
+			.current_page_item, .current-menu-item {
+				& > a {
+					box-shadow: 1px 0px 0 #111 inset;
+				}
+			}
+			a {
+				display: block;
+				color: $black-color;
+				padding: 10px 20px;
+			}
+			.sub-menu {
+				display: none;
+				border-top: 1px solid #ddd;
+				background-color: #eee;
+				li {
+					@include media-breakpoint-up(sm) {
+						&:last-child {
+							border: none;
+						}
+					}
+				}
+			}
+			.sub-menu-toggle {
+				display: none;
+			}
+			&.menu-item.menu-item-has-children > .sub-menu-toggle {
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 42px;
+				height: 42px;
+				line-height: 42px;
+				text-align: center;
+				outline: 0;
+				background-color: rgba(238, 238, 238, 0.5);
+			}
+			&.expand {
+				background-color: #ddd;
+				> .sub-menu-toggle:before {
+					-webkit-transform: rotate(180deg);
+					transform: rotate(180deg);
+				}
+			}
+		}
+	}
+}
+.slideout-menu {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+	width: 256px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	display: none;
+}
+
+.slideout-panel {
+	position: relative;
+	z-index: 1;
+}
+@include media-breakpoint-down(sm) {
+	.slideout-panel {
+		will-change: inherit;
+		.slideout-open &:before {
+			content: '';
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			top: 0;
+			left: 0;
+			background: #000;
+			opacity: 0.5;
+			z-index: 9;
+		}
+	}
+	.slideout-open,
+	.slideout-open .slideout-panel,
+	.slideout-open body {
+		overflow: hidden;
+	}
+}
+.slideout-open .slideout-menu {
+	display: block;
+}
+.mobile-menu-container {
+	@include media-breakpoint-down(sm) {
+		display: flex;
+	}
+}

@@ -1,0 +1,36 @@
+$font-primary: 'Raleway', sans-serif !important;
+$font-secondary: 'Roboto Condensed', sans-serif !important; 
+$font-third: 'News Cycle', sans-serif !important;
+$font-fourth: 'Dosis', sans-serif !important;
+
+//FONT WEIGHT 
+$light:300;
+$regular:400;
+$medium:500;
+$bold:700;
+$extra:600;
+$extrabold:800;
+
+
+
+@mixin fontstack-primary ($style:normal,$weight:300) {
+    font-family: $font-primary;
+	font-style: $style;
+	font-variant: normal;
+    font-weight: $weight;
+}
+
+@mixin fontstack-secondary ($style:normal,$weight:300) {
+    font-family: $font-secondary;
+	font-style: $style;
+	font-variant: normal;
+    font-weight: $weight;
+}
+
+@mixin fontstack-third ($style:normal,$weight:300) {
+    font-family: $font-secondary;
+	font-style: $style;
+	font-variant: normal;
+    font-weight: $weight;
+}
+

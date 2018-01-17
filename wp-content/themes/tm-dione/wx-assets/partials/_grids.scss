@@ -1,0 +1,245 @@
+//INFORMATION CENTRE
+//#shortcode-information-wrapper {
+//    
+//    ul.row.informationcentre {
+//        padding: 0;
+//        margin: 0;
+//        
+//        li.col-md-4.col-holder {
+////             margin-bottom: 30px;
+//            
+//            &:nth-child(4) {
+//                width: 66.66% !important; 
+//                max-width: 66.66% !important;
+//            }
+//
+//        }
+//        
+//    }
+//    
+//    
+//    
+//    .holder-wrapper {
+//        margin-bottom: 30px;
+//        border: 1px solid #ddd;
+//        min-height: 345px;
+//        
+//        
+//        
+//        
+//        .feature-img {
+//            min-height: 167px;
+//            background-repeat: no-repeat;
+//            background-size:cover;
+//        }
+//        
+//        
+//        .description {
+//            padding: 15px;
+//            
+//            h1 {
+//                margin: 0;
+//                font-size: 1.438em;
+//                font-weight: $bold;
+//            }
+//            
+//            p {
+//                line-height: 24px;
+//                letter-spacing: normal;
+//                color: $color-gray;
+//                font-size: 1.000em;
+//            }
+//
+//        }
+//        
+//        
+//        
+//    }
+//}
+//
+//
+//
+//
+//
+//
+
+    
+
+
+.special-thumbnail {
+    
+    .vc_pageable-slide-wrapper {
+    
+        .vc_grid-item {
+            
+            &:nth-child(4) {
+                width: 66.66% !important; 
+                max-width: 66.66% !important;
+                
+                .vc_gitem-zone.vc_gitem-zone-a {
+                    min-height: 200px;
+                    height: 200px;
+                    background-repeat: no-repeat;
+                    background-size:cover;
+                }
+                
+            }
+            
+            
+            .vc_grid-item-mini {
+                margin-bottom: 30px;
+//                border: 1px solid #ddd;
+                
+                -webkit-box-shadow: 0 2px 5px 1px rgba(0,0,0,.5);
+                box-shadow: 0 2px 5px 1px rgba(0,0,0,.5);
+                margin: 2px;
+            }
+            
+            
+            .vc_custom_heading {
+                
+                h4 {
+                     margin: 0;
+                    font-size: 1.438em;
+                    font-weight: $bold;
+                }
+                
+            }
+            
+            p {
+            overflow: hidden;
+           text-overflow: ellipsis;
+           display: -webkit-box;
+           line-height: 16px;     /* fallback */
+           max-height: 48px;      /* fallback */
+           -webkit-line-clamp: 3; /* number of lines to show */
+           -webkit-box-orient: vertical;
+            }
+            
+            
+            
+            
+            
+            
+        }
+
+    }
+    
+    
+    .vc_grid-pagination-list {
+        text-align: right;
+    }
+    
+}
+
+
+
+
+
+
+.special-testimonial {
+    
+    .vc_pageable-slide-wrapper {
+    
+        .vc_grid-item {
+            
+            .vc_grid-item-mini {
+                background: $color-primary;
+                color: $color-white;
+                
+                
+                .content-message {
+                    
+                    &::before {
+                        content: "\f10e";
+                        @include fontawesome;
+                        display: block;
+                    }
+                }
+                
+                
+                > .vc_gitem-zone {
+                    
+                    div,h6 {
+                        margin: 0;
+                    }
+                    
+                    .vc_custom_heading {
+                        
+                        h6 {
+                            font-weight: $bold;
+                            font-size: 1.1em;
+                        }
+                        
+                    }
+                    
+                    .position,
+                    .company  {
+                        font-size: .9em;
+                    }
+                    
+                    
+                    
+                }
+                
+                
+                
+            }
+            
+            
+             &:nth-child(even) {
+                 
+                  .vc_grid-item-mini {
+                        background: $color-blue;
+                    }
+                   
+            }
+
+            
+         
+            
+        }
+
+    }
+    
+    
+    .vc_grid-filter.vc_grid-filter-filled {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 15px;
+        
+        li {
+            padding: 0;
+            
+            span {
+                padding: 10px 20px;
+                background: $color-primary;
+                display: block;
+                color: $color-white;
+            }
+        }
+        
+        li.vc_active {
+            
+            span {
+                background: $color-blue;
+            }
+            
+        }
+        
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+

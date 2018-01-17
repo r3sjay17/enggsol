@@ -1,0 +1,41 @@
+.error404 {
+	.not-found {
+		text-align: center;
+		* {
+			font-size: 5em;
+		}
+		i {
+			clear: both;
+			display: block;
+			margin-bottom: 30px;
+		}
+	}
+	.title-404, .sub-title-404, .desc-404, .group-buttom-404 {
+		display: block;
+	}
+	.title-404 {
+		font-size: 70px;
+		font-weight: bold;
+		margin-bottom: 40px;
+	}
+	.sub-title-404 {
+		font-size: 50px;
+		line-height: 1em;
+		font-weight: 300;
+		color: #111;
+		margin-bottom: 30px;
+	}
+	.desc-404 {
+		margin-bottom: 50px;
+	}
+	.container-fluid {
+		& > .row-404 {
+			align-items: center;
+			background-color: #FBFBFB;
+			min-height: 800px;
+		}
+	}
+	.btn-in-404-page {
+		margin: 0 20px 20px 0;
+	}
+}

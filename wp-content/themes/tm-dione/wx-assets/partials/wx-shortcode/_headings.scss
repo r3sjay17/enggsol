@@ -1,0 +1,105 @@
+
+//****************************
+//HEADINGS 
+//****************************
+
+//color heading background
+$color-heading-primary:$color-dark;
+$color-heading-secondary:$color-primary;
+$color-heading-third:$color-white;
+$color-heading-fourth:$color-dark;
+
+
+//color heading BEFORE AFTER OBJECT
+$background-heading-before-primary:$color-blue;
+$background-heading-before-secondary:$color-primary;
+$background-heading-before-third:$color-primary;
+$background-heading-before-fourth:$color-blue;
+
+
+
+
+//HEADING STYLE 1
+.wx-heading {
+    text-decoration: none !important;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 35px;
+
+
+    .primary-heading,
+    .secondary-heading,
+    .third-heading,
+    .fourth-heading
+    {
+
+        display: inline-block;
+//        font-size:3.063em;
+        margin: 0;
+        text-transform: uppercase;
+        font-family: $font-select;
+        //        color: $color-dark;
+        font-weight: $light;
+        position: relative;
+        font-size: 2.813em;
+        &::before {
+            content: '';
+            display: inline-block;
+            width: 3px;
+            height: 70px;
+            margin-right: 15px;
+            margin-bottom: -20px;
+
+        }
+
+    }
+
+
+
+
+    .primary-heading {
+        color: $color-heading-primary;
+        font-size: 3.125em;
+        
+        &::before {
+            background: $background-heading-before-primary;
+        }
+    }
+
+
+    .secondary-heading {
+        color: $color-heading-primary;
+        font-size: 1.875em;
+        
+        &::before {
+            background: $background-heading-before-primary;
+            height: 55px;
+            margin-right: 15px;
+            margin-bottom: -17px;
+        }
+    }
+
+    .third-heading {
+        color: $color-heading-third;
+
+        &::before {
+            background: $background-heading-before-third;
+        }
+    }
+
+
+    .fourth-heading {
+        color: $color-heading-fourth;
+        font-size: 1.813em;
+        margin-bottom: 25px;
+
+        &::before {
+            background: $background-heading-before-fourth;
+            width: 2px;
+            height: 35px;
+        }
+    }
+
+
+}
+

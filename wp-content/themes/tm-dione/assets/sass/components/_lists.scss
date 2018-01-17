@@ -1,0 +1,63 @@
+// Lists Style
+.amazing-list {
+    ul, ol {
+        padding-left: 0;
+        li {
+            line-height: 2.5em;
+        }
+    }
+}
+
+.amazing-list.style1 li,
+.amazing-list.style2 li,
+.amazing-list.style3 li {
+    position: relative;
+    list-style-type: none;
+    &:before {
+        @include font-pe7;
+        position: absolute;
+        font-size: 15px;
+        top: 50%;
+        left: -22px;
+        margin-top: -8px;
+    }
+}
+
+.amazing-list.style1 li:before {
+    content: "\e685";
+}
+
+.amazing-list.style2 li:before {
+    content: "\e684";
+}
+
+.amazing-list.style3 li:before {
+    content: "\e66c";
+}
+
+.amazing-list.style4 li {
+    list-style-type: square;
+}
+
+.amazing-list.style5 li {
+    list-style-type: disc;
+}
+
+.amazing-list.style6 li {
+    list-style-type: decimal;
+}
+
+// Custom for icon with text
+.icon-list-item {
+    .icon-boxes_icon {
+        margin-right: 8px;
+    }
+    .icon-boxes_icon, .icon-boxes_content {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0;
+        &:after {
+            display: none;
+        }
+    }
+}

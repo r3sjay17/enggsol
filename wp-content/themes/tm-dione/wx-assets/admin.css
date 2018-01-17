@@ -1,0 +1,81 @@
+/* line 26, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+div#wpcontent {
+  background: #f1f1f1; }
+
+/* line 30, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+#wpwrap {
+  background: #f1f1f1; }
+
+/* line 38, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+#wpbody .wrap h1 {
+  color: #292929; }
+
+/* line 45, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+#wpadminbar {
+  background: #04a4df; }
+  /* line 50, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+  #wpadminbar ul li#wp-admin-bar-wp-logo {
+    width: 10px;
+    background: #f1f1f1;
+    display: block; }
+    /* line 55, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+    #wpadminbar ul li#wp-admin-bar-wp-logo a {
+      display: none !important; }
+
+/* line 71, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+#adminmenumain #adminmenuback {
+  background: #292929; }
+
+/* line 75, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+#adminmenumain #adminmenuwrap, #adminmenumain #adminmenu {
+  background-color: transparent !important; }
+  /* line 81, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+  #adminmenumain #adminmenuwrap div.wp-menu-image::before, #adminmenumain #adminmenu div.wp-menu-image::before {
+    color: #04a4df; }
+  /* line 88, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+  #adminmenumain #adminmenuwrap #adminmenu li, #adminmenumain #adminmenu #adminmenu li {
+    border-bottom: 1px solid #3b3a3a; }
+  /* line 95, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+  #adminmenumain #adminmenuwrap #adminmenu li.current > a.menu-top, #adminmenumain #adminmenu #adminmenu li.current > a.menu-top {
+    color: #f1f1f1;
+    background: #04a4df; }
+  /* line 104, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+  #adminmenumain #adminmenuwrap #adminmenu li.current ul.wp-submenu li a, #adminmenumain #adminmenu #adminmenu li.current ul.wp-submenu li a {
+    background: #047ba7; }
+
+/* line 126, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+#wp-auth-check-wrap #wp-auth-check {
+  left: 0 !important;
+  right: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  margin: auto !important;
+  max-height: auto !important;
+  width: 80% !important; }
+
+/* line 141, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+div#wpfooter {
+  position: absolute;
+  background: #04a4df;
+  right: 0;
+  width: 350px;
+  left: inherit;
+  height: 20px; }
+  /* line 149, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+  div#wpfooter div, div#wpfooter p {
+    display: none; }
+  /* line 154, /Applications/XAMPP/xamppfiles/htdocs/x/s/wp-content/themes/tm-dione/wx-assets/admin.scss */
+  div#wpfooter::before {
+    content: 'William ( Front Web Designer ) | Enggware Ltd';
+    width: 100%;
+    background: #000;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 10px; }
+
+/*# sourceMappingURL=admin.css.map */

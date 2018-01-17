@@ -1,0 +1,162 @@
+.site-footer  {
+    padding-top: 0 !important;
+    
+    .footer-column-container {
+        > div {
+            
+            &:nth-child(2),
+            &:nth-child(3) {
+                
+                aside {
+                    margin-top: 10px !important;
+                    
+                    ul {
+                        li {
+                            a {
+                                color:$color-white;
+                                text-decoration: none;
+                                
+                                &:hover {
+                                    color: $color-lightgray;
+                                }
+                            }
+                        }
+                    }
+                    
+                    div {
+                        color:$color-white;
+                    }
+                }
+                
+                
+                
+            }
+            
+          
+            &:nth-child(2) {
+                padding: 0;
+                
+                
+                aside,ul {
+                    margin: 0;
+                }
+                
+                aside {
+                    display: inline-block;
+                    margin-right: 10px;
+                    
+                    ul {
+                        li {
+                            display: inline;
+                             
+                            a {
+                                font-size: 0.625em;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                    
+                    
+                    &:first-child {
+                        
+                        ul {
+                            li {
+                                a {
+                                    pointer-events: none;
+                                }
+                            }
+                        }
+                        
+                    }
+                    
+                    
+                    &:last-child {
+                        
+                        ul {
+                            li {
+                                &::after {
+                                    content: '|';
+                                    margin-left: 5px;
+                                }
+                            }
+                        }
+                        
+                    }
+                    
+                    
+                }
+            }
+            
+            
+            
+            
+            &:last-child {
+                
+                aside {
+                    div {
+                        font-size: 0.750em;
+                        padding: 11px 0px;
+                    }
+                }
+                              
+            }
+            
+            
+            
+                
+                   
+        }
+    }
+}
+
+
+
+.extension {
+    text-align: center;
+    background: url("../custom-php/blues.jpg")repeat-x center;
+    
+    aside,div,a,span,ul,li,a {
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul {
+        display: block;
+        padding: 10px 0;
+        
+        li {
+            display: inline-block;
+            margin-right: 15px;
+            
+            
+            a {
+                color: $color-white;
+                padding: 10px 15px;
+                background: $color-primary;
+                
+                &:hover {
+                    opacity: .6;
+                }
+            }
+            
+            &:nth-child(1) {
+                a {
+                    background: transparent !important;
+                    font-weight: $bold;
+                    pointer-events: none;
+                }
+            }
+            
+        }
+    }
+}
+
+
+.scrollup {
+    bottom: 5px !important;
+    right: 5px !important;
+    background: $color-secondary;
+    border: 1px solid $color-lightgray;
+    color: $color-white;
+}
+

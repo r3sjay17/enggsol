@@ -1,0 +1,307 @@
+.custom-menu-wrapper {
+    background: $color-primary;
+    background-color: $color-primary;
+    border-top:2px solid $color-secondary; 
+    position: relative;
+    z-index: 2;
+    
+    .col-sm-12 {
+        
+        div,ul,li,a {
+            margin:0;
+        }
+        
+        ul {
+            li {
+                display: inline-block;
+                 
+                a {
+                    display: block !important;
+                    padding: 13px 0 !important;
+                    height: auto !important;
+                    letter-spacing: 0 !important;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: .9em;
+                    color: $color-lightgray2;
+                    
+                    font-family: $font-third;
+                    
+                    &:hover {
+                        color: $color-lightgray2;
+                        opacity: .5;
+                    }
+                }
+                
+                
+            }
+            
+            li.current_page_item {
+                
+                a {
+                    font-weight: $medium;
+                    color: $color-white;
+                }
+                
+            }
+        }
+        
+        
+        .left-menu {
+            ul {
+                li {
+                    margin-right: 10px;
+                    
+                    a {
+                        &::after {
+                            content: '|';
+                            margin-left: 10px;
+                        }
+                    }
+                    
+                    &:last-child {
+                        
+                        a {
+                            &::after {
+                                display: none;
+                            }
+                        }
+                        
+                    }
+                    
+                    
+                }
+            }
+        }
+        
+        .right-menu {
+            
+            ul {
+                li.current-menu-item {
+                    a {
+                        font-weight: $bold !important;
+                    }
+                }
+            }
+            
+        }
+        
+        
+        > div {
+            width: 50%;
+            float: left;
+            
+            #site-navigation  {
+                height: auto !important;
+                
+                
+                .menu {
+                    > ul {
+                        text-align: right;
+                        
+                        li {
+                            a {
+                                height: auto !important;
+                                
+                            }
+                            
+                            &::before,
+                            &::after
+                                {
+                                    display: none !important;
+                                }
+                            
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+.container.header-container {
+    overflow: hidden;
+}
+
+
+
+
+.header.sticky-header,
+.header.light
+{
+    position: relative;
+    
+    &::after {
+        content: '';
+        width: 50%;
+        height: 50px;
+        position: absolute;
+        bottom: 50px;
+        right: 0;
+        z-index: 1;
+        background: url("../custom-php/pattern.jpg")repeat; 
+    }
+}
+
+
+
+
+
+.top-holder {
+    
+    background: url("../custom-php/pattern.jpg")repeat;  
+    width: 600px;
+    float: right;
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 2;
+    height: 50px;
+    
+    
+    &::before {
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 0;
+        top: -10px;
+        border-top: 60px solid $color-white;
+        border-right: 60px solid transparent;
+    }
+    
+    
+    
+    > li {
+        display: inline-block;
+        
+        
+        .search-icon {
+            
+            a {
+                border: 1px solid;
+                padding: 0 2px !important;
+                font-weight: $bold;
+                display: inline-block;
+                height: 23px;
+                
+                i {
+                    padding: 0;
+                    display: block;
+                    font-size: 0.9em;
+                    font-weight: $bold;
+                }
+            }
+            
+        }
+        
+        
+        .widget_nav_menu,ul,li,a {
+            margin: 0;
+            padding: 0;
+        }
+        
+        
+        .widget_nav_menu {
+            width: 445px;
+            margin-top: -13px;
+            
+            ul {
+                
+                li {
+                    display: block;
+                    float: left;
+//                    width: 33%;
+                    position: relative;
+                    margin-right: 15px;
+                    
+                    @include transition(0.3s);
+                    
+                    &:hover {
+//                        transform: translate(0,-5%);
+//                        -webkit-transform: translate(0,-5%);
+//                        -moz-transform: translate(0,10%);
+                        
+                         transform: scale(1.1);
+                        -webkit-transform: scale(1.1);
+                        -moz-transform: scale(1.1);
+                        
+                        opacity: .8;
+                    }
+                   
+                    
+                    &:nth-child(1) {
+                        background-image: url("../custom-php/sprites.png");
+                        background-position: -11px 0;
+                        height: 57px;
+                        width: 129px;
+                        
+                    }
+                    
+                    
+                    
+                    &:nth-child(2) {
+                        background-image: url("../custom-php/sprites.png");
+                        background-position: -154px 0;
+                        height: 57px;
+                        width: 140px;
+                        
+                    }
+                    
+                    
+                    &:nth-child(3) {
+                        background-image: url("../custom-php/sprites.png");
+                        background-position: -306px 0;
+                        height: 57px;
+                        width: 128px;
+                        
+                    }
+                    
+                     
+                    a {
+                       position: absolute;
+                        left: 0;
+                        color: #fff;
+                        font-size: 0.750em;
+                        right: 0;
+                        margin: auto;
+                        width: 68%;
+                        top: 5px;
+                        font-weight: $bold;
+                        text-align: center;
+                        text-decoration: none;
+                        font-family: $font-fourth;
+                        font-weight: $extra;
+                        
+                        i {
+                            display: block;
+                            text-align: center;
+                            font-size: 1.4em;
+                        }
+                    }
+                    
+                    
+                }
+                
+                &:after {
+                    display: block;
+                    clear: both;
+                    content: ''; 
+                }
+               
+            }
+            
+        }
+        
+    }
+    
+} 
+
+
+

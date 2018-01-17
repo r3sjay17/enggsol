@@ -1,0 +1,29 @@
+// TEXT BLOCKS
+*[class*="text-block"] {
+  padding: $space-medium+10 $space-medium;
+  margin-bottom: $space-small;
+  h5 {
+    margin-bottom: 20px;
+  }
+}
+
+.text-block {
+  &_bg-light-gray-color {
+    background: $light-gray-color;
+  }
+  &_bg-secondary-color {
+    background: $secondary-color;
+    * {
+      color: $white-color;
+    }
+  }
+  &_bg-dark-color {
+    background: $dark-gray-color;
+    h5 {
+      color: $white-color;
+    }
+  }
+  &_border-gray-color {
+    border: 1px solid #ddd;
+  }
+}

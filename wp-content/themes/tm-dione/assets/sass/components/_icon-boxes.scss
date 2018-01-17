@@ -1,0 +1,95 @@
+.icon-boxes {
+    &_icon, &_content {
+        display: table-cell;
+        vertical-align: top;
+    }
+    &_icon {
+        font-size: 40px;
+        color: $black-color;
+        position: relative;
+        padding: 5px 20px 0px 0px;
+        color: #ccc;
+        &.icon-disable {
+            display: none;
+        }
+    }
+    &_content {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        h5 {
+            margin-bottom: 15px;
+        }
+    }
+    &.reverse {
+        text-align: right;
+        .icon-boxes_icon {
+            padding-right: 0;
+            padding-left: 20px;
+        }
+    }
+
+    .more {
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: $primary-color;
+    }
+
+    &.process-style {
+        position: relative;
+        .text-order {
+            font-size: 48px;
+            font-weight: 700;
+            color: #00aeef;
+            width: 114px;
+            height: 114px;
+            border: 1px solid #eee;
+            display: block;
+            text-align: center;
+            line-height: 114px;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: -40px;
+            margin-left: 15px;
+            &.without-border {
+                border: none;
+                margin-top: -20px;
+                margin-left: 10px;
+            }
+        }
+        @include media-breakpoint-up(sm) {
+            &.title-line {
+                .title-box {
+                    position: relative;
+                    display: inline-block;
+                    clear: both;
+                    &:before {
+                        content: '';
+                        width: 200px;
+                        height: 1px;
+                        background: #ddd;
+                        display: block;
+                        position: absolute;
+                        top: 50%;
+                        right: -240px;
+                    }
+                }
+            }
+        }
+        .icon-boxes_content {
+            padding-left: 100px;
+            overflow: hidden;
+        }
+    }
+}
+
+.icon-boxes.style-02 {
+    .icon-boxes_icon, .icon-boxes_content {
+        vertical-align: middle;
+    }
+    .icon-boxes_icon {
+        font-size: 60px;
+    }
+}

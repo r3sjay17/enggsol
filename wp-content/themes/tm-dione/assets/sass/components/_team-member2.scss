@@ -1,0 +1,146 @@
+.our-team {
+  &_job {
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  &_img {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 9999;
+  }
+  &_twitter {
+    padding: 50px 35px;
+    margin-bottom: 30px;
+    background: $secondary-color;
+    color: #fff;
+    float: right;
+    @include media-breakpoint-up(md) {
+      width: 300px;
+    }
+    .fa {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+    p {
+      color: #fff;
+      margin-bottom: 15px;
+    }
+  }
+
+  &_instagram {
+    position: relative;
+    margin-bottom: 30px;
+    .fa-instagram {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      font-size: 36px;
+      color: $white-color;
+    }
+	img {
+		max-width: 300px;
+	}
+  }
+
+  &_info {
+    margin: 65px 0px 60px 80px;
+  }
+  &_name {
+    text-transform: inherit;
+    margin-bottom: 10px;
+    position: relative;
+    &:before {
+      content: '';
+      width: 200px;
+      height: 1px;
+      background: #ddd;
+      position: absolute;
+      top: 50%;
+      left: -215px;
+    }
+  }
+
+  &_story {
+    background: #000;
+    padding: 50px 35px 20px;
+    margin-bottom: 30px;
+	color: $white-color;
+    @extend %clearfix;
+    h5 {
+      margin-bottom: 35px;
+    }
+    p {
+		color: inherit;
+      	margin-bottom: 30px;
+    }
+    &-signature {
+      float: right;
+    }
+  }
+}
+
+.social-link {
+  margin-bottom: 30px;
+  li {
+    padding-right: 0;
+  }
+  a {
+    font-size: 16px;
+    color: $black-color;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    &:hover {
+      color: $white-color;
+      background: $primary-color;
+      border-color: $primary-color;
+    }
+  }
+}
+
+
+@include media-breakpoint-up(sm) {
+  .our-team {
+    &_story {
+      margin-top: 180px;
+    }
+    &_info-wrapper {
+      position: relative;
+    }
+    &_info {
+      margin: 0;
+      position: absolute;
+      top: 60px;
+      left: calc(100% + 80px);
+      min-width: 300px;
+    }
+  }
+  .our-team_item-reverse {
+    @include media-breakpoint-up(sm) {
+      .col-sm-6:last-child {
+        order: -1;
+      }
+    }
+    .our-team_twitter {
+      float: left;
+    }
+    .our-team {
+      &_info {
+        left: auto;
+        right: calc(100% + 80px);
+      }
+      &_name:before {
+        left: auto;
+        right: -215px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+
+}

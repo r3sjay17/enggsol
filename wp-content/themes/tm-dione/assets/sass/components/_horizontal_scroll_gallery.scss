@@ -1,0 +1,39 @@
+// Horiz Scroll
+.gallery-container-wrap,
+.gallery-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.gallery-container-wrap {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.gallery-container {
+	white-space: nowrap !important;
+	margin: 0!important;
+}
+.gallery-container .placeholder {
+	display: block;
+}
+.gallery-container-wrap .gallery-container .placeholder {
+	height: 100%;
+	display: inline-block;
+	width: auto!important;
+	overflow: visible;
+	&:first-child img {
+		padding-left: 0;
+	}
+}
+.gallery-container-wrap .gallery-container .placeholder:after {
+    content: '';
+}
+.gallery-container .placeholder img {
+	width: 100%;
+}
+.gallery-container-wrap .gallery-container .placeholder img {
+	height: 100%;
+	width: auto!important;
+	max-width: none!important;
+	padding-left: 30px;
+}

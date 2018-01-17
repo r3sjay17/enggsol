@@ -1,0 +1,99 @@
+.message {
+  padding: $alert-padding;
+  margin-bottom: $line-height-computed;
+  border: 1px solid transparent;
+  border-radius: 0;
+
+  // Headings for larger alerts
+  h4 {
+    margin-top: 0;
+    // Specified for the h4 to prevent conflicts of changing $headings-color
+    color: inherit;
+  }
+
+  // Provide class for links that match alerts
+  .alert-link {
+    font-weight: $alert-link-font-weight;
+  }
+
+  // Improve alignment and spacing of inner content
+  > p,
+  > ul {
+    margin-bottom: 0;
+  }
+
+  > p + p {
+    margin-top: 5px;
+  }
+}
+
+// Dismissible alerts
+//
+// Expand the right padding and account for the close button's positioning.
+
+.message-dismissable, // The misspelled .alert-dismissable was deprecated in 3.2.0.
+.message-dismissible {
+  padding-right: ($alert-padding + 20);
+
+  // Adjust close link position
+  .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    color: inherit;
+  }
+}
+
+// Message
+.message {
+  padding-left: 20px;
+  &.with_icon {
+    padding-left: 50px;
+  }
+  position: relative;
+  //@include rounded(0px);
+  &-icon {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: 20px;
+  }
+  .close {
+    opacity: 1;
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  &-danger {
+    background: $brand-danger;
+    border-color: $brand-danger;
+    color: #df6060;
+    p, .close {
+      color: #df6060;
+    }
+  }
+  &-success {
+    background: $brand-success;
+    border-color: $brand-success;
+    color: #58a839;
+    p, .close {
+      color: #58a839;
+    }
+  }
+  &-info {
+    background: $brand-info;
+    border-color: $brand-info;
+    color: #3d6ebf;
+    p, .close {
+      color: #3d6ebf;
+    }
+  }
+  &-warning {
+    background: $brand-warning;
+    border-color: $brand-warning;
+    color: #eb9b0a;
+    p, .close {
+      color: #eb9b0a;
+    }
+  }
+}

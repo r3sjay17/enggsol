@@ -1,0 +1,30 @@
+.scrollup {
+	display: none;
+}
+
+.scrollup {
+	display: block;
+	cursor: pointer;
+	z-index: 2;
+	position: fixed;
+	right: 30px;
+	bottom: -50px;
+	text-align: center;
+	font-size: 0;
+	border: 2px solid;
+	font-size: 20px;
+	opacity: 0.5;
+	height: 40px;
+	width: 40px;
+	padding-top: 2px;
+	color: #111;
+	&.show {
+		bottom: 70px;
+	}
+	&:hover {
+		opacity: 1;
+		color: #fff;
+		background-color: #111;
+		border-color: #111;
+	}
+}

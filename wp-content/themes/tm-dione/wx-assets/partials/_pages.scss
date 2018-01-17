@@ -1,0 +1,330 @@
+
+
+
+//ANIMATION PAGE
+#animation-bar {
+
+    &::after {
+        content: '';
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 34%;
+        position: absolute;
+        display: block;
+
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5b5b5+0,e8e8e8+100 */
+        background: #b5b5b5; /* Old browsers */
+        background: -moz-linear-gradient(top,  #b5b5b5 0%, #e8e8e8 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #b5b5b5 0%,#e8e8e8 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #b5b5b5 0%,#e8e8e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b5b5', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */
+
+    }
+
+}
+
+
+
+.banner-subpage {
+    padding: 65px;
+
+    .container {
+        padding: 0;
+
+        div {
+            padding: 0;
+        }
+    }
+
+    h3 {
+        font-size: 2.813em;
+        font-weight: $light;
+        max-width: 480px;
+        height: 85px;
+    }
+
+}
+
+
+#content {
+    > .container {
+        padding: 50px 0;  
+    }
+}
+
+
+
+.home {
+    
+    #content {
+        > .container {
+            padding: 0;  
+        }
+    }
+     
+}
+
+
+.page-template-template-employer {
+    
+    #content  {
+        
+        > .container {
+              padding: 0;  
+        }
+        
+    } 
+    
+}
+
+
+
+#banner-caption {
+
+
+    .vc_col-sm-5 {
+        .wpb_content_element {
+            padding: 5px 20px;
+
+        }
+    }
+
+            h1,h2 {
+                font-size: 1.750em;
+                padding: 0 25px;
+                text-align: center;
+                font-weight: normal;
+                line-height: 30px;
+
+
+                &::before {
+                    content: '"';
+                }
+
+                &::after {
+                    content: '"';
+                }
+
+            }
+
+
+            h3 {
+                text-transform: uppercase;
+            }
+
+}
+
+
+
+
+
+
+//SUBPAGES MENU STYLES
+#menu-subpages,
+.subpages-menu-bar
+{
+    
+    background: $color-dark;
+    
+    div,ul,li,aside {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        margin: auto;
+    }
+
+    ul {
+        li {
+            display: block;
+            width: 14.2%;
+            float: left;
+            height: 95px;
+            border-left:1px solid $color-midgray;
+            position: relative;
+            
+            a {
+                color: $color-white;
+                display: block;
+//                height: 100%;
+                text-decoration: none;
+//                padding: 5px 10px;
+//                padding: 25px 0 5px 10px;
+                text-transform: uppercase;
+                line-height: 18px;
+                font-size: .9em;
+                
+                position: absolute !important;
+                padding: 0;
+                bottom: 0;
+                left: 0;
+                height: auto;
+                padding: 10px;
+                width: 100%;
+                height: auto;
+            }
+            
+            
+            &:hover {
+                    background: $color-secondary;
+            }
+
+        }
+        
+        
+        li.current_page_item {
+            background: $color-secondary;
+            
+            a {
+                position: relative;
+                
+            } 
+            
+            &::before {
+                    content: '';
+                    position: absolute;
+                    bottom: -9px;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    border-top: 10px solid $color-secondary;
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    width: 0;
+                    height: 0;   
+            } 
+            
+            
+            
+        }
+        
+
+    }
+}
+
+
+
+
+
+
+//CORPORATE SOCIAL RESPONSIBILITY
+#banner-caption {
+    .wpb_text_column {
+        h3 {
+            font-size: 1.125em;
+            margin-bottom: 0;
+            margin-bottom: 15px;
+            font-family: $font-primary;
+            font-weight: $medium;
+        }
+        
+        ul {
+            
+            li {
+                position: relative;
+                line-height: 24px;
+                font-size: 1em;
+                font-family: $font-third;
+                
+                &:before {
+                    content: "\f101";
+                    position: absolute;
+                    left: -15px;
+                    top: 3px;
+                    @include fontawesome;
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+.single-bottom-holder {
+    margin-top: 50px;
+    
+    
+    .social-holder {
+        position: relative;
+        
+        &::before {
+            content: '';
+            width: 100%;
+            height: 1px;
+            background: $color-lightgray;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 0;
+        }
+        
+        &::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        
+        
+        .social-contents {
+            background: $color-white;
+            position: relative;
+            z-index: 1;
+            width: auto !important;
+            float: left;
+            padding-right: 15px;
+            
+            span {
+                font-weight: $bold;
+                
+                &:first-child {
+                    margin-right: 15px;
+                }
+            
+                a {
+                    background: $color-primary;
+                    display: inline-block;
+                    padding: 5px;
+                    width: 30px;
+                    color: $color-white;
+                    text-align: center;
+                }
+            }
+        }
+        
+        
+    }
+    
+    
+    
+    .realated-holder {
+        margin-top: 30px;
+        
+        h4 {
+            
+            margin-bottom: 25px;
+        }
+        
+        a {
+            display: block;
+            
+            &:hover {
+                opacity: .6;
+            }
+        }
+        
+    }
+    
+    
+}
+
+
+
+
+
+

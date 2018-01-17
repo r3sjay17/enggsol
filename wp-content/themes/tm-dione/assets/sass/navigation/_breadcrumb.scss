@@ -1,0 +1,45 @@
+.breadcrumb {
+	overflow : hidden;
+}
+
+.breadcrumb {
+  ul {
+	position : relative;
+	display  : inline-block;
+	float: right;
+	margin   : 0;
+	//padding  : 15px 20px;
+	&:before {
+		position     : absolute;
+		top          : 0;
+		right        : -40px;
+		width        : 0;
+		height       : 0;
+		border-width : 60px 0 0 40px;
+		border-style : solid;
+		border-color : transparent transparent transparent transparent;
+		content      : '';
+		@extend %transit;
+	}
+	li {
+		display      : inline-block;
+		margin-right : 6px;
+		&, a {
+		  color: #fff;
+		}
+		a {
+		  &:after {
+			margin-left: 10px;
+			content: "\e684";
+			@extend %icon-pe7;
+		  }
+		  &:hover {
+			  opacity: .6;
+		  }
+		}
+		&:last-child {
+			margin : 0;
+		}
+	}
+  }
+}

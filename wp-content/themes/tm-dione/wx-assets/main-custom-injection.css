@@ -1,0 +1,113 @@
+/******************CSS INJECTION IT TECH
+ ***********************/
+/***
+Date : May 25, 2016
+Web Designer: William L. Carrasca Jr.
+Company: Enggware LTD under Enggsol Engineering Solution
+Email: william@enggware.com 
+Contacts: +639212632325
+Skype: williamcarrascajr
+ ***/
+/* line 2, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_resets.scss */
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 14px; }
+
+/* line 8, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_resets.scss */
+ul {
+  list-style: none; }
+
+/* line 21, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_resets.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+div,
+ul li,
+a {
+  font-family: "Open Sans", sans-serif !important; }
+
+/* line 30, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_resets.scss */
+h1.vc_custom_heading,
+h2.vc_custom_heading,
+h3.vc_custom_heading,
+h4.vc_custom_heading,
+h5.vc_custom_heading {
+  font-family: "Roboto Condensed", sans-serif !important; }
+
+/* line 3, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_sidebar.scss */
+#sidebar h5.widget-title {
+  font-size: 24px;
+  background: #00aeef !important;
+  color: #fff !important;
+  text-align: center;
+  padding: 10px;
+  margin-top: 25px;
+  font-weight: 700; }
+
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_forms.scss */
+.gform_wrapper {
+  max-width: 100%; }
+  /* line 5, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_forms.scss */
+  .gform_wrapper .validation_error {
+    font-size: 11px !important;
+    background: #00aeef !important;
+    padding: 11px !important;
+    color: #fff !important !important;
+    border: 0 !important; }
+  /* line 16, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_forms.scss */
+  .gform_wrapper .gform_heading {
+    display: none; }
+  /* line 26, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_forms.scss */
+  .gform_wrapper .gform_body ul .gfield.gfield_error,
+  .gform_wrapper .gform_body ul .gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    padding: 5px !important;
+    background: #00aeef !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    color: #fff !important !important; }
+  /* line 36, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_forms.scss */
+  .gform_wrapper .gform_body ul li {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0 !important; }
+    /* line 45, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_forms.scss */
+    .gform_wrapper .gform_body ul li input, .gform_wrapper .gform_body ul li button, .gform_wrapper .gform_body ul li select, .gform_wrapper .gform_body ul li textarea {
+      width: 100% !important;
+      color: #919191 !important;
+      padding: 10px;
+      background: #fff !important;
+      outline: 0;
+      border: 1px solid #00aeef !important; }
+    /* line 57, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_forms.scss */
+    .gform_wrapper .gform_body ul li > label {
+      display: none !important; }
+  /* line 83, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_forms.scss */
+  .gform_wrapper .gform_footer input[type="submit"] {
+    background: #00aeef !important;
+    color: #fff !important;
+    border: 1px solid #010269 !important;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    width: 100%;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    /* line 93, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/_forms.scss */
+    .gform_wrapper .gform_footer input[type="submit"]:hover {
+      background: #010269 !important;
+      color: #fff !important; }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* line 4, /Applications/XAMPP/xamppfiles/htdocs/themes/T/wp-content/themes/tm-dione/wx-assets/partials/responsive/_large.scss */
+  .small {
+    color: #f00; } }
+
+/*# sourceMappingURL=main-custom-injection.css.map */

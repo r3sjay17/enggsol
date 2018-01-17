@@ -1,0 +1,36 @@
+.latest-blog {
+  &.no-image {
+    .blog-title {
+       a {
+         color: #212121;
+         &:hover {
+           color: $primary-color;
+         }
+       }
+    }
+  }
+  &.blog-grid {
+    .blog-entry {
+      .postcontent-grid {
+        background: #F5F5F5;
+        .date {
+          p {
+            font-size: 12px;
+            font-weight: 500;
+            color: #111;
+          }
+        }
+      }
+    }
+  }
+  .blog-grid-masonry {
+    margin-left: -7px;
+    margin-right: -7px;
+    .post {
+      padding: 7px;
+    }
+    .blog-entry {
+      margin: 0;
+    }
+  }
+}

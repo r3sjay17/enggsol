@@ -1,0 +1,95 @@
+.gallery-with-lightbox {
+  //padding-right: 30px;
+  //padding-left: 30px;
+  a[class*="col-"] {
+    transition: none;
+    padding:1.5rem;
+    //margin: 1.5rem;
+    position: relative;
+    .overlay-gallery-item {
+      opacity: 0;
+      @include transition(500ms);
+      position: absolute;
+      top:1.5rem;
+      left: 1.5rem;
+      right: 1.5rem;
+      bottom: 1.5rem;
+      background-color: #222222;
+      .icon {
+        @include transition(500ms);
+        font-size: 40px;
+        color: #fff;
+        top: 60%;
+        left: 50%;
+        position: absolute;
+        margin-left: -20px;
+        margin-top: -20px;
+      }
+    }
+    &:hover .overlay-gallery-item {
+      opacity: 0.9;
+      .icon {
+        top: 50%;
+      }
+    }
+  }
+}
+
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
+  border-color: $primary-color;
+}
+.lg-progress-bar .lg-progress {
+  background-color: $primary-color;
+}
+.lg-outer .lg-thumb-item {
+  border-radius: 0;
+}
+
+.video-gallery {
+	a {
+		position: relative;
+		display: inline-block;
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right:0;
+			bottom: 0;
+			background-color: #000;
+			opacity: .5;
+		}
+		.play-icon {
+			font-size: 32px;
+			color: #111;
+			height: 90px;
+			width: 90px;
+			overflow: hidden;
+			padding: 30px 36px;
+			border-radius: 50%;
+			position: absolute;
+			z-index: 2;
+			top: 50%;
+			left: 50%;
+			margin-left: -45px;
+			margin-top: -45px;
+			background-color: #fff;
+
+		}
+		&:hover {
+			.play-icon {
+				background-color: #111;
+				color: #fff;
+			}
+		}
+	}
+}
+
+.grid-masonry {
+	a {
+		img {
+			width: 100%;
+		}
+	}
+}

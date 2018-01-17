@@ -1,0 +1,47 @@
+// Forms
+select, textarea, input {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    font-size: 14px;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #eee;
+    font-family: inherit;
+    letter-spacing: inherit;
+    outline-color: $primary-color;
+    outline: 0 none;
+    //border-radius: 3px;
+    &:focus {
+        transition: 800ms;
+        border-color: #222;
+    }
+}
+
+input[type="submit"], input[type="reset"] {
+    width: auto;
+}
+
+.contact-form {
+    [class*="col"] {
+        padding: 0px 5px;
+    }
+}
+
+.hide-title-and-white-button {
+	.mc4wp-form-fields {
+		h2 {
+			display: none;
+		}
+		.btn-bg-primary-color {
+			color: #111;
+			background-color: #fff;
+			border-color: #fff;
+			&:hover {
+				background: none;
+				color: #fff;
+			}
+		}
+	}
+}

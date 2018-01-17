@@ -1,0 +1,18 @@
+.site-content {
+  background: #fff;
+  //min-height: 100vh;
+}
+button {
+  &:focus {
+    outline: none;
+  }
+}
+.post-password-form {
+	input {
+		&[type="submit"] {
+			@extend .btn;
+			clear: both!important;
+			display: block!important;
+		}
+	}
+}
